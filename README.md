@@ -73,7 +73,7 @@ HI
         <strong>Pusan University Graduate School</strong> - M.Sc. Course, Department of Artificial Intelligence (2022.09 ~ 2023.08)
     </li>
     <li>
-        <strong>Dong-A University</strong> B.Eng. Course, Department of Computer Engineering (2013.03 ~ 2019.02)
+        <strong>Dong-A University</strong> - B.Eng. Course, Department of Computer Engineering (2013.03 ~ 2019.02)
     </li>
 </div>
 
@@ -106,4 +106,36 @@ HI
     </li
 </div>
 
+<br>
 
+### 💻 Projects
+<div>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/ELGO_Client_QT">Digital Signage Client (QT Freamework)</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/ELGO_Remote_React">Digital Signage Remote (React.js)</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/KT-G2P-Prototype">NLP: G2P with Phonological Knowledge Base</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/NER-kr">NLP: Part-of-Speech Representation and Input Positions in NER</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/Span-NER-with-K_adapter">NLP: SpanNER with K-adapter</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/De-identification-NER-Datasets">NLP: Make De-identification Dataset with NER</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/KorLex-API">NLP: KorLex with Python</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/Table-Parser">NLP: Wikipedia & Namuwiki Table Parser</a></strong>
+    </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/Web-Crawling">Web Crawling (Daum Movie & Stream Game Reviews, Youtube Comments)</a></strong>
+    </li>
+    
+</div>
