@@ -1,6 +1,6 @@
 <!-- Header & Logo -->
 <div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=Hello%20World!%20I'm%20Matagi%20:D&animation=fadeIn&fontColor=000000&fontSize=60" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=84e3f0&height=180&text=Hello%20World!%20I'm%20Matagi%20:D&animation=fadeIn&fontColor=000000&fontSize=60" />    
 </div>
     
 
