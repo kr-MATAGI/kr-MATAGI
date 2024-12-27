@@ -73,7 +73,7 @@
 ### 👨🏻‍🎓 Eudcation
 <div>
     <li>
-        <strong>Pusan University Graduate School</strong> - M.Sc. Course, Department of Artificial Intelligence (2022.09 ~ 2023.08)
+        <strong>Pusan University Graduate School</strong> - M.Sc. Course, Department of Artificial Intelligence (2021.09 ~ 2023.08)
     </li>
     <li>
         <strong>Dong-A University</strong> - B.Eng. Course, Department of Computer Engineering (2013.03 ~ 2019.02)
