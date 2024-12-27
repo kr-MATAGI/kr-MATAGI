@@ -19,7 +19,9 @@ HI
 </a>
 -->
 
-### Languages & Skills
+<br>
+
+### 💻 Languages & Skills
 
 <div>
   <!-- Python -->
@@ -61,6 +63,23 @@ HI
   <!-- Docker -->
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"/>
 
+</div>
+
+<br>
+
+### 🔬 Paper
+<div>
+    <li>
+        <strong><a href="https://www.dbpia.co.kr/journal/detail?nodeId=T16857208">지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환</a>, <em>석사 학위 졸업 논문</em>, <em>2023</em> </strong>
+    </li>
+    <li>
+        <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011">음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환</a>, <em>한국정보과학회</em>, <em>2023</em> </strong>
+    </li>
+    <li>
+        <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11498488">개체명 인식에서 품사 표현의 방법과 입력 위치의 영향 분석</a>, <em>한국정보통신학회</em>, <em>2023</em> </strong>
+    <li>
+        <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077874">개인정보 비식별화를 위한 개체명 유형 재정의와 학습데이터 생성 방법</a>, <em>한국정보통신학회</em>, <em>2022</em> </strong>
+    </li
 </div>
 
 
