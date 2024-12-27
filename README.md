@@ -67,13 +67,37 @@ HI
 
 <br>
 
+### 👨🏻‍🎓 Eudcation
+<div>
+    <li>
+        <strong>Pusan University Graduate School</strong> - M.Sc. Course, Department of Artificial Intelligence (2022.09 ~ 2023.08)
+    </li>
+    <li>
+        <strong>Dong-A University</strong> B.Eng. Course, Department of Computer Engineering (2013.03 ~ 2019.02)
+    </li>
+</div>
+
+<br>
+
+### 😆 Work Experience
+<div>
+    <li>
+        <strong>Hot Seller</strong> - Backend Developer (2023.07 ~ 2024.10)
+    </li>
+    <li>
+        <strong>NAVIS-AMS</strong> - HMI Team Software Developer (2019.01 ~ 2020.06)
+    </li>
+</div>
+
+<br>
+
 ### 🔬 Paper
 <div>
     <li>
         <strong><a href="https://www.dbpia.co.kr/journal/detail?nodeId=T16857208">지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환</a>, <em>석사 학위 졸업 논문</em>, <em>2023</em> </strong>
     </li>
     <li>
-        <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011">음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환</a>, <em>한국정보과학회</em>, <em>2023</em> </strong>
+        <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011">음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환</a>, <em>한국정보과학회 우수논문</em>, <em>2023</em> </strong>
     </li>
     <li>
         <strong><a href="https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11498488">개체명 인식에서 품사 표현의 방법과 입력 위치의 영향 분석</a>, <em>한국정보통신학회</em>, <em>2023</em> </strong>
