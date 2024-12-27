@@ -111,10 +111,10 @@ HI
 ### 💻 Projects
 <div>
     <li>
-        <strong><a href="https://github.com/kr-MATAGI/ELGO_Client_QT">Digital Signage Client (QT Freamework)</a></strong>
+        <strong><a href="https://github.com/kr-MATAGI/ELGO_Client_QT">Digital Signage Client (QT Framework)</a></strong>
     </li>
     <li>
-        <strong><a href="https://github.com/kr-MATAGI/ELGO_Remote_React">Digital Signage Remote (React.js)</a></strong>
+        <strong><a href="https://github.com/kr-MATAGI/ELGO_Remote_React">Digital Signage Remote Application (React.js)</a></strong>
     </li>
     <li>
         <strong><a href="https://github.com/kr-MATAGI/KT-G2P-Prototype">NLP: G2P with Phonological Knowledge Base</a></strong>
@@ -126,13 +126,13 @@ HI
         <strong><a href="https://github.com/kr-MATAGI/Span-NER-with-K_adapter">NLP: SpanNER with K-adapter</a></strong>
     </li>
     <li>
-        <strong><a href="https://github.com/kr-MATAGI/De-identification-NER-Datasets">NLP: Make De-identification Dataset with NER</a></strong>
+        <strong><a href="https://github.com/kr-MATAGI/De-identification-NER-Datasets">NLP: Create De-identification Dataset using NER</a></strong>
     </li>
     <li>
         <strong><a href="https://github.com/kr-MATAGI/KorLex-API">NLP: KorLex with Python</a></strong>
     </li>
     <li>
-        <strong><a href="https://github.com/kr-MATAGI/Table-Parser">NLP: Wikipedia & Namuwiki Table Parser</a></strong>
+        <strong><a href="https://github.com/kr-MATAGI/Table-Parser">NLP: Wikipedia & Namuwiki Table Parsing Tool</a></strong>
     </li>
     <li>
         <strong><a href="https://github.com/kr-MATAGI/Web-Crawling">Web Crawling (Daum Movie & Stream Game Reviews, Youtube Comments)</a></strong>
