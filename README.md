@@ -58,6 +58,9 @@
   <!-- Mongo DB -->
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 
+  <!-- Redis -->
+  <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white"/>
+
   <br>
 
   <!-- AWS -->
