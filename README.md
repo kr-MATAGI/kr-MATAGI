@@ -117,7 +117,7 @@
 ### 😁 Doing
 <div>
     <li>
-        <strong><a href="https://github.com/kr-MATAGI/chzzk-ai-manager">NLP: chzzk AI Agent</a></strong>
+        <strong><a href="https://github.com/kr-MATAGI/chzzk-ai-manager">NLP: Chzzk AI Agent</a></strong>
     </li>
     <li>
         <strong><a href="https://github.com/kr-MATAGI/LLM-Quantization">Study: LLM Quantization</a></strong>
