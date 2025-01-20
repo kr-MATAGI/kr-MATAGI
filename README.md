@@ -114,6 +114,13 @@
 
 <br>
 
+### 😁 Doing
+<div>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/chzzk-ai-manager">NLP: chzzk AI Agent</a></strong>
+    </li>
+</div>
+
 ### 💻 Projects
 <div>
     <li>
