@@ -119,6 +119,9 @@
     <li>
         <strong><a href="https://github.com/kr-MATAGI/chzzk-ai-manager">NLP: chzzk AI Agent</a></strong>
     </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/LLM-Quantization">NLP Study: LLM Quantization</a></strong>
+    </li>
 </div>
 
 <br>
