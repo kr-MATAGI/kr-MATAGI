@@ -122,6 +122,10 @@
     <li>
         <strong><a href="https://github.com/kr-MATAGI/LLM-Quantization">Study: LLM Quantization</a></strong>
     </li>
+    <li>
+        <strong><a href="https://github.com/kr-MATAGI/Coding-Test-2025">Study: Coding Test</a></strong>
+    </li>
+    
 </div>
 
 <br>
