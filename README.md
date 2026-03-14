@@ -78,6 +78,7 @@
 ## 🔬 Paper
 - [지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환](https://www.dbpia.co.kr/journal/detail?nodeId=T16857208) - *석사 학위 졸업 논문, 2023*
 - [음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011) - *한국정보과학회 우수논문, 2023*
+- [심층 학습 분류 문제로 접근한 문맥 기반 한국어 숫자 발음열 변환](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488045) - *한국정보과학회, 2023*
 - [개체명 인식에서 품사 표현의 방법과 입력 위치의 영향 분석](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11498488) - *한국정보통신학회, 2023*
 - [개인정보 비식별화를 위한 개체명 유형 재정의와 학습데이터 생성 방법](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077874) - *한국정보통신학회, 2022*
 
