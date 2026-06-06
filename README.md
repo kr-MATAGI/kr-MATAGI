@@ -76,7 +76,6 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat-square&logo=databricks&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Spark-FDEE21?style=flat-square&logo=apachespark&logoColor=black)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 
 ### Engineering
@@ -202,12 +201,6 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Use Case**: 한국어 테이블 언어모델 및 TAPAS 데이터셋 구성
 
 ### Learning / Experiments
-
-**[PySpark Practice](https://github.com/kr-MATAGI/PySpark-Pratice)**
-
-- **Focus**: Spark 아키텍처와 분산 데이터 처리 원리
-- **Topics**: DataFrame/SQL, Catalyst Optimizer, Shuffle, Broadcast Join, Spark UI
-- **Goal**: Databricks/PySpark 기반 데이터 엔지니어링 이해 확장
 
 **[Chzzk AI Agent](https://github.com/kr-MATAGI/chzzk-ai-manager)**
 
