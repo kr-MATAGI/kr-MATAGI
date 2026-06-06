@@ -3,11 +3,19 @@
   <strong>AI/Data Engineer · Backend Engineer · Agent Workflow Builder</strong>
   <br />
   LLM Agent, Databricks, Data Pipeline, E-commerce Automation
+  <br />
+  <br />
+  <img src="https://img.shields.io/badge/LLM_Agent-7C3AED?style=flat-square&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Pipeline-0EA5E9?style=flat-square&logo=databricks&logoColor=white" />
+  <img src="https://img.shields.io/badge/Ecommerce_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Backend_Service-F59E0B?style=flat-square&logo=fastapi&logoColor=white" />
 </div>
 
 <br />
 
 ## About
+
+![Profile](https://img.shields.io/badge/Profile-0EA5E9?style=for-the-badge)
 
 **Role**  
 AI/Data Engineer
@@ -38,6 +46,8 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Current Focus
 
+![Focus](https://img.shields.io/badge/Focus-10B981?style=for-the-badge)
+
 - LLM Agent를 활용한 이커머스 운영 자동화 및 분석 워크플로우
 - Databricks, Airflow, Delta Lake 기반 데이터 파이프라인
 - FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드
@@ -47,21 +57,23 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Tech Stack
 
+![Stack](https://img.shields.io/badge/Stack-7C3AED?style=for-the-badge)
+
 ### AI / Agent
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-22C55E?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-6D28D9?style=flat-square&logo=ollama&logoColor=white)
 
 ### Backend
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-2563EB?style=flat-square&logo=nextdotjs&logoColor=white)
 
 ### Database / Queue
 
@@ -69,7 +81,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-4F46E5?style=flat-square&logo=apachekafka&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
 
 ### Data Platform / Automation
@@ -90,11 +102,15 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Certifications
 
+![Certifications](https://img.shields.io/badge/Certifications-F59E0B?style=for-the-badge)
+
 - ADsP(데이터분석준전문가)
 - 정보처리기사
 - 리눅스마스터 2급
 
 ## Selected Projects
+
+![Projects](https://img.shields.io/badge/Projects-14B8A6?style=for-the-badge)
 
 ### Professional Work Highlights
 
@@ -160,6 +176,8 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ### Selected Public Repositories
 
+![Repositories](https://img.shields.io/badge/Repositories-6366F1?style=for-the-badge)
+
 **[KT G2P Prototype](https://github.com/kr-MATAGI/KT-G2P-Prototype)**
 
 - **Purpose**: 한국어 TTS 전처리를 위한 G2P 시스템
@@ -202,6 +220,8 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Work Experience
 
+![Experience](https://img.shields.io/badge/Experience-EA580C?style=for-the-badge)
+
 **Cafe24** · FGS Team  
 2025.08 ~ Present
 
@@ -230,6 +250,8 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Publications
 
+![Publications](https://img.shields.io/badge/Publications-8B5CF6?style=for-the-badge)
+
 - [지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환](https://www.dbpia.co.kr/journal/detail?nodeId=T16857208) · Master's Thesis, 2023
 - [음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011) · KCC 2023, Best Paper Award
 - [심층 학습 분류 문제로 접근한 문맥 기반 한국어 숫자 발음열 변환](https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488045) · KCC 2023
@@ -238,20 +260,24 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Education
 
+![Education](https://img.shields.io/badge/Education-0F766E?style=for-the-badge)
+
 - **Pusan National University** · M.S. in Information Convergence Engineering, AI Major (2021.09 ~ 2023.08)
 - **Dong-A University** · B.S. in Computer Engineering (2013.03 ~ 2019.02)
 
 ## GitHub Highlights
 
+![GitHub](https://img.shields.io/badge/GitHub-6366F1?style=for-the-badge&logo=github&logoColor=white)
+
 <div align="center">
   <a href="https://github.com/kr-MATAGI">
-    <img src="https://img.shields.io/github/followers/kr-MATAGI?style=flat-square&logo=github" />
+    <img src="https://img.shields.io/github/followers/kr-MATAGI?style=flat-square&logo=github&color=10B981" />
   </a>
   <a href="https://github.com/kr-MATAGI?tab=repositories">
-    <img src="https://img.shields.io/badge/Public%20Repos-33-181717?style=flat-square&logo=github" />
+    <img src="https://img.shields.io/badge/Public%20Repos-33-0EA5E9?style=flat-square&logo=github" />
   </a>
   <a href="https://github.com/kr-MATAGI/NER-Model">
-    <img src="https://img.shields.io/github/stars/kr-MATAGI/NER-Model?style=flat-square&logo=github&label=NER--Model" />
+    <img src="https://img.shields.io/github/stars/kr-MATAGI/NER-Model?style=flat-square&logo=github&label=NER--Model&color=F59E0B" />
   </a>
 </div>
 
