@@ -134,7 +134,7 @@ export default function ProfilePage() {
         <section className="section focusSection" aria-labelledby="focus-title">
           <div className="sectionHead">
             <p className="eyebrow">Focus</p>
-            <h2 id="focus-title">현재 강점으로 밀고 갈 영역</h2>
+            <h2 id="focus-title">AI/Data Engineering Focus</h2>
           </div>
           <div className="focusGrid">
             {focusAreas.map((focus, index) => (

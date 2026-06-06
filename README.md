@@ -17,9 +17,6 @@
 <br />
 
 <div align="center">
-  LLM Agent, Data Pipeline, Analytics Automation, Data Service
-  <br />
-  <br />
   <img src="https://img.shields.io/badge/LLM_Agent-7C3AED?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Data_Pipeline-0EA5E9?style=flat-square&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/Workflow_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
