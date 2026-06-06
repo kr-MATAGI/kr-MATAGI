@@ -42,7 +42,7 @@ Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, ClickHouse, Pl
 OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense, cache-first serving, structured output validation
 
 **Platform Strength**  
-대규모 서비스 환경에서 데이터 플랫폼, AI Agent, 백엔드 자동화를 연결하는 역할
+통신, 제조, 플랫폼, 엔터프라이즈 IT처럼 대규모 운영 환경에서 데이터 플랫폼, AI Agent, 백엔드 자동화를 연결하는 역할
 
 **Background**  
 Python backend, C++ navigation software, Korean NLP/NER/G2P research
@@ -54,7 +54,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - LLM Agent를 활용한 업무 자동화, 데이터 분석, 운영 지원 워크플로우
 - Databricks, Airflow, Delta Lake 기반 대규모 데이터 파이프라인
 - FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안 구조
-- SEO/GEO, VoC, storefront quality diagnostics, report automation
+- SEO/GEO, VoC, quality diagnostics, report automation
 - Structured output, self-correction, tool routing, prompt-injection defense
 - SHAP/Causal SHAP, Sales Shapley, text data quality, model evaluation
 

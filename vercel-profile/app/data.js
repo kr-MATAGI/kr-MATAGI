@@ -16,7 +16,7 @@ export const focusAreas = [
   },
   {
     title: "Service Backend",
-    body: "FastAPI와 Next.js BFF로 멀티테넌트 서비스, 인증, 캐시, 운영 대시보드를 구축합니다."
+    body: "FastAPI와 Next.js BFF로 멀티테넌트 서비스, 인증, 캐시, 엔터프라이즈 운영 대시보드를 구축합니다."
   }
 ];
 

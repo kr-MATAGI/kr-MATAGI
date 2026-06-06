@@ -79,8 +79,9 @@ export default function ProfilePage() {
               <span>FastAPI, Next.js를 연결해 </span>
               <span>데이터 수집부터 분석, 리포팅, </span>
               <span>서비스 백엔드까지 이어지는 자동화 시스템을 구축합니다.</span>
-              <span>통신, 플랫폼, 커머스처럼 </span>
-              <span>운영 복잡도가 큰 IT 서비스에도 </span>
+              <span>통신, 제조, 플랫폼, </span>
+              <span>엔터프라이즈 IT처럼 </span>
+              <span>운영 복잡도가 큰 환경에도 </span>
               <span>확장 가능한 구조를 지향합니다.</span>
             </p>
             <div className="heroActions">

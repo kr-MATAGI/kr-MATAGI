@@ -4,7 +4,7 @@ export const metadata = {
   metadataBase: new URL("https://matagi-profile.vercel.app"),
   title: "최재훈 | AI & Data Engineer",
   description:
-    "대규모 데이터 파이프라인, LLM Agent, 백엔드 자동화 시스템을 구축하는 AI/Data Engineer 프로필",
+    "대규모 운영 환경에서 데이터 파이프라인, LLM Agent, 백엔드 자동화 시스템을 구축하는 AI/Data Engineer 프로필",
   openGraph: {
     title: "최재훈 | AI & Data Engineer",
     description:
