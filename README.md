@@ -42,7 +42,7 @@ Databricks 기반 데이터 파이프라인, 분석 자동화, LangGraph 멀티�
 데이터 수집 → 정합성 검증 → 분석 → 리포팅 → AI Agent 서비스화까지 이어지는 흐름 설계
 
 **Recent Impact**  
-약 1.3만 자사몰 UI 품질 진단  
+현재까지 약 3만 개 이상 Cafe24 PRO 몰 UI 품질 진단  
 현재까지 약 3만 개 Cafe24 PRO 몰 전체 GSC 등록 자동화  
 5.5만 행 VoC 분석 및 개인화 FAQ/코칭 Agent 구조 설계  
 GEO 측정 및 SEO 데이터 정합성 개선
@@ -147,7 +147,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 **Large-scale Storefront UI Diagnostics**
 
-- **Function**: 약 1.3만 개 활성 자사몰 UI 품질 자동 진단
+- **Function**: 현재까지 약 3만 개 이상 Cafe24 PRO 몰 UI 품질 자동 진단
 - **Checks**: SSL, 오탈자, 깨진 이미지/링크, JavaScript 오류, 화이트스크린, 구매 퍼널 장애
 - **Structure**: Playwright 단일 로드에서 여러 검사를 통합 실행
 - **Automation**: 사이트별 셀렉터 사전 없이 Cafe24 표준 패턴으로 구매 흐름 재현
