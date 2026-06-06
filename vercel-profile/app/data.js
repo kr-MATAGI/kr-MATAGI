@@ -15,8 +15,8 @@ export const focusAreas = [
     body: "Airflow, S3, Databricks, PostgreSQL을 연결해 대규모 수집, 적재, 검증, 리포팅 흐름을 만듭니다."
   },
   {
-    title: "Service Backend",
-    body: "FastAPI와 Next.js BFF로 멀티테넌트 서비스, 인증, 캐시, 엔터프라이즈 운영 대시보드를 구축합니다."
+    title: "Data Service",
+    body: "FastAPI와 Next.js BFF로 분석 결과, Agent workflow, 인증, 캐시, 운영 대시보드를 서비스화합니다."
   }
 ];
 
@@ -101,7 +101,7 @@ export const experiences = [
     lines: [
       "Databricks 데이터 파이프라인과 LangGraph AI Agent 분석 시스템 설계",
       "GSC/SEO 자동화, UI 품질 진단, VoC 분석, GEO 측정 워크플로우 구축",
-      "FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안/운영 구조 설계"
+      "FastAPI/Next.js 기반 데이터 서비스 API와 보안/운영 구조 설계"
     ]
   },
   {

@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Matagi | AI & Data Engineer</h1>
-  <strong>AI/Data Engineer · Agent Platform Builder · Backend Engineer</strong>
+  <strong>AI/Data Engineer</strong>
   <br />
   <br />
   <h3>
@@ -11,13 +11,13 @@
   </a>
   <br />
   <br />
-  LLM Agent, Data Platform, Backend Service, Workflow Automation
+  LLM Agent, Data Pipeline, Analytics Automation, Data Service
   <br />
   <br />
   <img src="https://img.shields.io/badge/LLM_Agent-7C3AED?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Data_Pipeline-0EA5E9?style=flat-square&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/Workflow_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/Backend_Service-F59E0B?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Data_Service-F59E0B?style=flat-square&logo=fastapi&logoColor=white" />
 </div>
 
 <br />
@@ -33,10 +33,10 @@ AI/Data Engineer
 AI agent system, data platform, workflow automation
 
 **Main Work**  
-Databricks 기반 데이터 파이프라인과 LangGraph 멀티에이전트 LLM 시스템을 서비스로 연결
+Databricks 기반 데이터 파이프라인, 분석 자동화, LangGraph 멀티에이전트 LLM 시스템 구축
 
 **Current Scope**  
-데이터 수집 → 분석 → 리포팅 → 서비스 백엔드까지 이어지는 자동화 시스템 설계
+데이터 수집 → 정합성 검증 → 분석 → 리포팅 → AI Agent 서비스화까지 이어지는 흐름 설계
 
 **Recent Impact**  
 약 1.3만 자사몰 UI 품질 진단  
@@ -51,7 +51,7 @@ Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, ClickHouse, Pl
 OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense, cache-first serving, structured output validation
 
 **Platform Strength**  
-통신, 제조, 플랫폼, 엔터프라이즈 IT처럼 대규모 운영 환경에서 데이터 플랫폼, AI Agent, 백엔드 자동화를 연결하는 역할
+통신, 제조, 플랫폼, 엔터프라이즈 IT처럼 대규모 운영 환경에서 데이터 플랫폼과 AI Agent를 연결하는 역할
 
 **Background**  
 Python backend, C++ navigation software, Korean NLP/NER/G2P research
@@ -62,7 +62,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 - LLM Agent를 활용한 업무 자동화, 데이터 분석, 운영 지원 워크플로우
 - Databricks, Airflow, Delta Lake 기반 대규모 데이터 파이프라인
-- FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안 구조
+- FastAPI/Next.js 기반 데이터 서비스 API와 멀티테넌트 보안 구조
 - SEO/GEO, VoC, quality diagnostics, report automation
 - Structured output, self-correction, tool routing, prompt-injection defense
 - SHAP/Causal SHAP, Sales Shapley, text data quality, model evaluation
@@ -239,7 +239,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 2025.08 ~ Present
 
 - **Role**: AI/Data Engineer
-- **Build**: Databricks 데이터 파이프라인, LangGraph AI Agent, FastAPI/Next.js 서비스 백엔드
+- **Build**: Databricks 데이터 파이프라인, LangGraph AI Agent, FastAPI/Next.js 데이터 서비스 API
 - **Automation**: 리포트 자동화, UI 품질 진단, GSC/SEO 자동화, VoC 분석, GEO 측정
 - **Security**: OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense
 - **Ops**: Playwright, Selenium, n8n, Airflow 기반 자동화와 데이터 정합성 검증

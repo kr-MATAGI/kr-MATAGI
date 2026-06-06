@@ -24,7 +24,7 @@ const filters = [
 
 const stackGroups = [
   ["AI / Agent", ["LangGraph", "LangChain", "OpenAI API", "Gemini", "Pydantic"]],
-  ["Backend", ["Python", "FastAPI", "Next.js", "TypeScript", "SSE"]],
+  ["Data Service", ["Python", "FastAPI", "Next.js", "TypeScript", "SSE"]],
   ["Data", ["Airflow", "Databricks", "S3", "PostgreSQL", "MySQL", "ClickHouse"]],
   ["Automation", ["Playwright", "Selenium", "n8n", "GSC API", "Slack API"]]
 ];
@@ -66,7 +66,7 @@ export default function ProfilePage() {
       <main id="top">
         <section className="hero">
           <div className="heroCopy">
-            <p className="eyebrow">AI/Data Engineer · Agent Workflow Builder</p>
+            <p className="eyebrow">AI/Data Engineer</p>
             <h1>
               <span>AI Agent로</span>{" "}
               <span>데이터 운영을</span>{" "}
@@ -77,7 +77,8 @@ export default function ProfilePage() {
               <span>Databricks, Airflow, LangGraph, </span>
               <span>FastAPI, Next.js를 연결해 </span>
               <span>데이터 수집부터 분석, 리포팅, </span>
-              <span>서비스 백엔드까지 이어지는 자동화 시스템을 구축합니다.</span>
+              <span>AI Agent 서비스화까지 이어지는 </span>
+              <span>자동화 시스템을 구축합니다.</span>
               <span>통신, 제조, 플랫폼, </span>
               <span>엔터프라이즈 IT처럼 </span>
               <span>운영 복잡도가 큰 환경에도 </span>
