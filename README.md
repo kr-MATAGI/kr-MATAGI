@@ -1,16 +1,22 @@
 <div align="center">
   <h1>Matagi | AI & Data Engineer</h1>
   <strong>AI/Data Engineer</strong>
-  <br />
-  <br />
-  <h3>
-    <a href="https://matagi-profile.vercel.app/">View Portfolio Website</a>
-  </h3>
+</div>
+
+<br />
+
+<div align="center">
+  <h2>Portfolio Website</h2>
   <a href="https://matagi-profile.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-matagi--profile.vercel.app-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/View_Portfolio-matagi--profile.vercel.app-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <br />
-  <br />
+  <sub>Interactive profile, selected work, and project details</sub>
+</div>
+
+<br />
+
+<div align="center">
   LLM Agent, Data Pipeline, Analytics Automation, Data Service
   <br />
   <br />
