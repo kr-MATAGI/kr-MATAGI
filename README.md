@@ -2,6 +2,15 @@
   <h1>Matagi | AI & Data Engineer</h1>
   <strong>AI/Data Engineer · Agent Platform Builder · Backend Engineer</strong>
   <br />
+  <br />
+  <h3>
+    <a href="https://matagi-profile.vercel.app/">View Portfolio Website</a>
+  </h3>
+  <a href="https://matagi-profile.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-matagi--profile.vercel.app-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <br />
+  <br />
   LLM Agent, Data Platform, Backend Service, Workflow Automation
   <br />
   <br />
@@ -9,11 +18,6 @@
   <img src="https://img.shields.io/badge/Data_Pipeline-0EA5E9?style=flat-square&logo=databricks&logoColor=white" />
   <img src="https://img.shields.io/badge/Workflow_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Backend_Service-F59E0B?style=flat-square&logo=fastapi&logoColor=white" />
-  <br />
-  <br />
-  <a href="https://matagi-profile.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Open_Profile_Site-2563EB?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
 </div>
 
 <br />
