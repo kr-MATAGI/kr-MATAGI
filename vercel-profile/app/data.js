@@ -8,14 +8,14 @@ export const metrics = [
 export const focusAreas = [
   {
     title: "LLM Agent",
-    body: "LangGraph 기반 Supervisor/Router/Worker 구조로 자연어 질의를 데이터 분석 작업으로 라우팅합니다."
+    body: "LangGraph 기반 Supervisor/Router/Worker 구조로 자연어 질의를 데이터 분석과 운영 자동화 작업으로 라우팅합니다."
   },
   {
     title: "Data Pipeline",
-    body: "Airflow, S3, Databricks, PostgreSQL을 연결해 수집, 적재, 검증, 리포팅 흐름을 만듭니다."
+    body: "Airflow, S3, Databricks, PostgreSQL을 연결해 대규모 수집, 적재, 검증, 리포팅 흐름을 만듭니다."
   },
   {
-    title: "Automation Backend",
+    title: "Service Backend",
     body: "FastAPI와 Next.js BFF로 멀티테넌트 서비스, 인증, 캐시, 운영 대시보드를 구축합니다."
   }
 ];
@@ -26,7 +26,7 @@ export const projects = [
     category: "agent",
     title: "Databricks LangGraph Multi-Agent Analytics",
     short: "자연어 질의를 Databricks Genie, Vector Search, Dynamic SQL Worker로 라우팅하는 분석 Agent.",
-    function: "비개발자가 자연어로 쇼핑몰 지표와 퍼널, SEO 데이터를 질의할 수 있는 분석 인터페이스",
+    function: "비개발자가 자연어로 운영 지표와 퍼널, SEO 데이터를 질의할 수 있는 분석 인터페이스",
     structure: "Supervisor / Router / Worker / Sub-Supervisor 4-layer LangGraph",
     usage: "복합 질의를 데이터 소스별로 분해하고 structured output, route-loop 방지, self-correction으로 결과를 검증",
     stack: ["LangGraph", "Databricks", "Vector Search", "SQL Warehouse", "Pydantic"]
@@ -58,7 +58,7 @@ export const projects = [
     short: "약 3만 Cafe24 PRO 몰의 GSC 등록, 매일 수집, SEO 리포트를 자동화.",
     function: "Google Search Console 등록, 소유권 검증, 사이트맵 제출, 색인 요청 자동화",
     structure: "GSC API -> Airflow -> S3 -> Databricks -> SEO report",
-    usage: "클릭, 노출, 검색어, 페이지, 디바이스 지표를 매일 수집해 SEO 리포트와 정합성 검증에 활용",
+    usage: "대량 계정/사이트 단위 API 데이터를 매일 수집해 SEO 리포트와 정합성 검증에 활용",
     stack: ["Airflow", "GSC API", "S3", "Databricks", "Selenium"]
   },
   {
@@ -66,9 +66,9 @@ export const projects = [
     category: "agent",
     title: "VoC Analysis and Personalized Coaching Agent",
     short: "5.5만 행 상담 데이터를 LLM/embedding/clustering으로 구조화하고 코칭 Agent로 연결.",
-    function: "고객 상담 이슈와 비즈니스 지표를 기반으로 개인화 FAQ와 코칭 응답 생성",
+    function: "고객 상담 이슈와 비즈니스 지표를 기반으로 FAQ와 코칭 응답 생성",
     structure: "LLM extraction -> embedding -> UMAP/clustering -> FastAPI/SSE service",
-    usage: "셀러가 반복 문의와 불만 원인을 데이터 근거와 함께 확인하고 액션을 추천받는 구조",
+    usage: "반복 문의와 불만 원인을 데이터 근거와 함께 확인하고 액션을 추천받는 구조",
     stack: ["FastAPI", "SSE", "BGE-M3", "UMAP", "PostgreSQL", "Redis"]
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
     short: "SHAP/Causal SHAP, clustering, Sales Shapley로 쇼핑몰 성과 요인을 해석하는 분석 Cockpit.",
     function: "매출, 트래픽, 상품, 검색, 외부 지표를 한 화면에서 해석하는 의사결정 대시보드",
     structure: "FastAPI backend, Next.js BFF, Lakebase to PostgreSQL sync",
-    usage: "셀러별 접근 제어와 cache-first serving으로 멀티테넌트 분석 경험 제공",
+    usage: "계정별 접근 제어와 cache-first serving으로 멀티테넌트 분석 경험 제공",
     stack: ["FastAPI", "Next.js", "PostgreSQL", "RLS", "SHAP", "Sales Shapley"]
   },
   {
@@ -101,7 +101,7 @@ export const experiences = [
     lines: [
       "Databricks 데이터 파이프라인과 LangGraph AI Agent 분석 시스템 설계",
       "GSC/SEO 자동화, UI 품질 진단, VoC 분석, GEO 측정 워크플로우 구축",
-      "FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안 구조 설계"
+      "FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안/운영 구조 설계"
     ]
   },
   {

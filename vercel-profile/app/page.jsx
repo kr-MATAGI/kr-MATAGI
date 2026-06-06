@@ -68,17 +68,20 @@ export default function ProfilePage() {
           <div className="heroCopy">
             <p className="eyebrow">AI/Data Engineer · Agent Workflow Builder</p>
             <h1>
-              <span>데이터 흐름을 설계하고</span>{" "}
-              <span>AI Agent로</span>{" "}
-              <span>반복 업무를</span>{" "}
-              <span>자동화합니다.</span>
+              <span>대규모 데이터를</span>{" "}
+              <span>서비스로 연결하는</span>{" "}
+              <span>AI Agent 시스템을</span>{" "}
+              <span>설계합니다.</span>
             </h1>
             <p className="lead">
-              <span>Cafe24 도메인에서 </span>
+              <span>현재 Cafe24에서 </span>
               <span>Databricks, Airflow, LangGraph, </span>
               <span>FastAPI, Next.js를 연결해 </span>
               <span>데이터 수집부터 분석, 리포팅, </span>
               <span>서비스 백엔드까지 이어지는 자동화 시스템을 구축합니다.</span>
+              <span>통신, 플랫폼, 커머스처럼 </span>
+              <span>운영 복잡도가 큰 IT 서비스에도 </span>
+              <span>확장 가능한 구조를 지향합니다.</span>
             </p>
             <div className="heroActions">
               <a className="button primary" href="#projects">

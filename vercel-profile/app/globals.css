@@ -135,6 +135,10 @@ main {
   display: inline;
 }
 
+.lead span:not(:last-child)::after {
+  content: " ";
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: var(--rose);
@@ -638,6 +642,10 @@ main {
 
   .lead span {
     display: block;
+  }
+
+  .lead span:not(:last-child)::after {
+    content: "";
   }
 
   .metricGrid,

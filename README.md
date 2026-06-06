@@ -1,8 +1,8 @@
 <div align="center">
   <h1>Matagi | AI & Data Engineer</h1>
-  <strong>AI/Data Engineer · Backend Engineer · Agent Workflow Builder</strong>
+  <strong>AI/Data Engineer · Agent Platform Builder · Backend Engineer</strong>
   <br />
-  LLM Agent, Databricks, Data Pipeline, Workflow Automation
+  LLM Agent, Data Platform, Backend Service, Workflow Automation
   <br />
   <br />
   <img src="https://img.shields.io/badge/LLM_Agent-7C3AED?style=flat-square&logo=openai&logoColor=white" />
@@ -21,13 +21,13 @@
 AI/Data Engineer
 
 **Domain**  
-Workflow automation, data pipeline, AI agent system
+AI agent system, data platform, workflow automation
 
 **Main Work**  
-Databricks 기반 데이터 파이프라인과 LangGraph 멀티에이전트 LLM 시스템 구축
+Databricks 기반 데이터 파이프라인과 LangGraph 멀티에이전트 LLM 시스템을 서비스로 연결
 
 **Current Scope**  
-데이터 수집 → 분석 → 리포팅 → 서비스 백엔드까지 연결하는 자동화 시스템 설계
+데이터 수집 → 분석 → 리포팅 → 서비스 백엔드까지 이어지는 자동화 시스템 설계
 
 **Recent Impact**  
 약 1.3만 자사몰 UI 품질 진단  
@@ -41,6 +41,9 @@ Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, ClickHouse, Pl
 **Engineering Focus**  
 OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense, cache-first serving, structured output validation
 
+**Platform Strength**  
+대규모 서비스 환경에서 데이터 플랫폼, AI Agent, 백엔드 자동화를 연결하는 역할
+
 **Background**  
 Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
@@ -48,9 +51,9 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ![Focus](https://img.shields.io/badge/Focus-10B981?style=for-the-badge)
 
-- LLM Agent를 활용한 업무 자동화 및 분석 워크플로우
-- Databricks, Airflow, Delta Lake 기반 데이터 파이프라인
-- FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드
+- LLM Agent를 활용한 업무 자동화, 데이터 분석, 운영 지원 워크플로우
+- Databricks, Airflow, Delta Lake 기반 대규모 데이터 파이프라인
+- FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드와 보안 구조
 - SEO/GEO, VoC, storefront quality diagnostics, report automation
 - Structured output, self-correction, tool routing, prompt-injection defense
 - SHAP/Causal SHAP, Sales Shapley, text data quality, model evaluation
@@ -120,7 +123,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Routing**: Databricks Genie, Vector Search, Dynamic SQL Worker로 질의 유형별 라우팅
 - **Structure**: Supervisor / Router / Worker / Sub-Supervisor 4-layer LangGraph
 - **Reliability**: structured output, route-loop 방지, self-correction 루프
-- **Use Case**: 비개발자가 자연어로 쇼핑몰 지표, 퍼널, SEO 데이터를 질의하고 분석 결과를 받을 수 있는 구조
+- **Use Case**: 비개발자가 자연어로 운영 지표, 퍼널, SEO 데이터를 질의하고 분석 결과를 받을 수 있는 구조
 
 **E-commerce Weekly Report Automation**
 
@@ -147,6 +150,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Data Pipeline**: GSC API → Airflow → S3 → Databricks 적재 및 정합성 검증
 - **Reporting**: 클릭, 노출, 검색어, 페이지, 디바이스 지표를 활용한 SEO 리포트 제작
 - **Quality**: 중복 적재 제거, 클릭/노출 집계 오차를 +50%대에서 한 자릿수 수준으로 안정화
+- **Platform Fit**: 대량 계정/사이트 단위의 API 수집, 검증, 리포팅 자동화 경험
 
 **VoC Analysis and Personalized FAQ/Coaching Agent**
 
@@ -155,11 +159,11 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Analysis**: LLM extraction, embedding, UMAP, clustering
 - **Service**: FastAPI/SSE 기반 실시간 응답 구조
 - **Security**: PostgreSQL/Redis, RLS/HMAC 기반 멀티테넌트 보안
-- **Use Case**: 셀러가 상담 이슈와 비즈니스 지표를 바탕으로 맞춤형 코칭을 받을 수 있는 구조
+- **Use Case**: 상담 이슈와 비즈니스 지표를 바탕으로 맞춤형 FAQ/코칭을 받을 수 있는 구조
 
 **AI Commerce Analytics Cockpit**
 
-- **Function**: 쇼핑몰 성과 요인을 해석하는 AI 커머스 분석 대시보드
+- **Function**: 서비스 성과 요인을 해석하는 AI 분석 대시보드
 - **Backend**: FastAPI 기반 API와 Lakebase → PostgreSQL 동기화
 - **Frontend**: Next.js BFF 기반 데이터 조회 및 시각화
 - **Analysis**: SHAP/Causal SHAP, clustering, Sales Shapley
