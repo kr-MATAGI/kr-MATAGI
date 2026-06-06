@@ -90,6 +90,46 @@ export const projects = [
     structure: "브랜드 선정 -> 질의 생성 -> AI 응답 수집 -> Hit Score 평가",
     usage: "기존 SEO로 측정하기 어려운 AI 검색 노출도를 수치화하고 개선점을 추적",
     stack: ["OpenAI API", "Gemini", "Databricks SQL", "Pydantic", "httpx"]
+  },
+  {
+    id: "hotseller-job-pipeline",
+    category: "backend",
+    title: "HotSeller SNS Marketing Job Processing Pipeline",
+    short: "Scheduler, RabbitMQ, Redis, Consumer worker로 대량 SNS 마케팅 작업을 분산 처리.",
+    function: "서비스/마켓별 계정 작업을 안정적으로 분배하고 고처리량 운영을 지원하는 백엔드 파이프라인",
+    structure: "Scheduler -> RabbitMQ -> Redis Dispatcher -> Consumer workers -> PostgreSQL",
+    usage: "월 5천만 건 수준의 작업 처리량을 3억 건 이상 처리 가능한 구조로 확장",
+    stack: ["Python", "RabbitMQ", "Redis", "PostgreSQL", "AWS EC2"]
+  },
+  {
+    id: "hotseller-ops-optimization",
+    category: "backend",
+    title: "HotSeller PostgreSQL Operations Optimization",
+    short: "작업 로그와 운영 대시보드 쿼리를 최적화해 저장 용량과 장애 대응 흐름을 개선.",
+    function: "작업 이력, 계정 상태, 서비스 이슈를 운영자가 빠르게 파악할 수 있는 데이터 운영 기반",
+    structure: "Partitioning, indexing, column split, JSONB storage tuning, Slack alert queries",
+    usage: "작업 로그 저장 구조를 개선해 저장 용량을 약 3배 절감하고 운영 분석 쿼리를 정리",
+    stack: ["PostgreSQL", "SQL", "JSONB", "Slack API", "Python"]
+  },
+  {
+    id: "navis-live-map",
+    category: "automotive",
+    title: "Mercedes-Benz Navigation Live Map",
+    short: "목적지 경로에 필요한 지도 타일을 실시간 다운로드하고 검증하는 내비게이션 온라인 기능.",
+    function: "벤츠 내비게이션에서 온라인 지도 데이터를 안전하게 갱신하고 오류 타일을 재시도하는 기능",
+    structure: "cURL download -> multithreaded processing -> SHA-256 validation -> tile replacement",
+    usage: "오프라인 지도와 온라인 타일 갱신을 결합해 자동차 HMI 환경의 지도 최신성을 보강",
+    stack: ["C++", "cURL", "Multithreading", "SHA-256", "Automotive HMI"]
+  },
+  {
+    id: "navis-online-routing",
+    category: "automotive",
+    title: "Mercedes-Benz Online Routing Integration",
+    short: "WebSocket 기반 온라인 경로 탐색과 온보드/온라인 경로 전환을 개선.",
+    function: "온라인 경로 업데이트, 대체 경로 ETA, UI-내비게이션 모듈 인터페이스를 연결하는 기능",
+    structure: "WebSocket route updates, RESTful API integration, SQLite, shared memory interfaces",
+    usage: "자동차 HMI에서 온라인 서비스와 내비게이션 코어가 안정적으로 연동되도록 개선",
+    stack: ["C++", "WebSocket", "RESTful API", "SQLite", "Shared Memory"]
   }
 ];
 
@@ -111,7 +151,8 @@ export const experiences = [
     lines: [
       "Python 기반 SNS 마케팅 솔루션 개발 및 운영",
       "PostgreSQL 파티셔닝, 인덱싱, 작업 로그 구조 개선",
-      "RabbitMQ, Redis, Scheduler, Consumer 기반 작업 처리량 확장"
+      "RabbitMQ, Redis, Scheduler, Consumer 기반 작업 처리량 확장",
+      "Slack 알림과 운영 분석 쿼리로 서비스 이슈 탐지 및 대응 흐름 개선"
     ]
   },
   {
@@ -121,7 +162,8 @@ export const experiences = [
     lines: [
       "C++ 기반 벤츠 내비게이션 온라인 기능 개발",
       "Live Map, Online Routing, Android prototype porting",
-      "cURL, WebSocket, JNI/NDK, SHA-256 기반 데이터 검증"
+      "cURL, WebSocket, JNI/NDK, SHA-256 기반 데이터 검증",
+      "UI와 내비게이션 모듈 간 인터페이스 릴리즈 및 온라인 서비스 연동"
     ]
   }
 ];

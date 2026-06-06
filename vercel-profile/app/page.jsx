@@ -18,6 +18,8 @@ const filters = [
   { id: "agent", label: "Agent" },
   { id: "pipeline", label: "Pipeline" },
   { id: "automation", label: "Automation" },
+  { id: "backend", label: "Backend" },
+  { id: "automotive", label: "Automotive" },
   { id: "report", label: "Report" },
   { id: "analytics", label: "Analytics" }
 ];
