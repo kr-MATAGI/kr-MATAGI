@@ -158,7 +158,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Optimization**: 층화 샘플링과 캐싱으로 API 비용 약 70% 절감 전략 수립
 - **Use Case**: 기존 SEO로 측정하기 어려운 AI 검색 노출도를 정량화
 
-### Research / Data Repositories
+### Selected Public Repositories
 
 **[KT G2P Prototype](https://github.com/kr-MATAGI/KT-G2P-Prototype)**
 
@@ -199,26 +199,6 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Purpose**: 나무위키 테이블과 정보상자 데이터 파싱
 - **Processing**: 표 구조 추출, 정보상자 파싱, 데이터 전처리
 - **Use Case**: 한국어 테이블 언어모델 및 TAPAS 데이터셋 구성
-
-### Learning / Experiments
-
-**[Chzzk AI Agent](https://github.com/kr-MATAGI/chzzk-ai-manager)**
-
-- **Type**: Toy project
-- **Focus**: LangGraph 기반 스트리밍 채팅 분석 Agent
-- **Features**: PostgreSQL 적재, 최근 채팅 요약, 유저 성향 분석, 외부 컨텍스트 검색
-
-**[Kafka - n8n - ClickHouse Automation](https://github.com/kr-MATAGI/clickhouse-kafka-test)**
-
-- **Type**: Automation experiment
-- **Focus**: Kafka, n8n, ClickHouse 연결
-- **Features**: Gmail 수집, ChatGPT 요약, Slack/DB/API 액션 연결
-
-**[MCP Practice](https://github.com/kr-MATAGI/MCP-Practice)**
-
-- **Type**: Protocol study
-- **Focus**: Model Context Protocol
-- **Topics**: client-server 구조, tools/resources/prompts, transport layer
 
 ## Work Experience
 
