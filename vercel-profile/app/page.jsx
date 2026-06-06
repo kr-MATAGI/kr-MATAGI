@@ -249,7 +249,7 @@ export default function ProfilePage() {
         <section className="section split" id="repositories" aria-labelledby="repos-title">
           <div className="sectionHead stickyHead">
             <p className="eyebrow">Repositories</p>
-            <h2 id="repos-title">노력이 드러나는 공개 레포</h2>
+            <h2 id="repos-title">대표 공개 저장소</h2>
           </div>
           <div className="repoGrid">
             {repos.map(([name, description, href]) => (

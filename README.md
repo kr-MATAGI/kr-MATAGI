@@ -174,7 +174,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Optimization**: 층화 샘플링과 캐싱으로 API 비용 약 70% 절감 전략 수립
 - **Use Case**: 기존 SEO로 측정하기 어려운 AI 검색 노출도를 정량화
 
-### Selected Public Repositories
+### 대표 공개 저장소
 
 ![Repositories](https://img.shields.io/badge/Repositories-6366F1?style=for-the-badge)
 
