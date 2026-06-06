@@ -16,7 +16,7 @@ export const focusAreas = [
   },
   {
     title: "Data Service",
-    body: "FastAPI와 Next.js BFF로 분석 결과, Agent workflow, 인증, 캐시, 운영 대시보드를 서비스화합니다."
+    body: "FastAPI 기반 API로 분석 결과, Agent workflow, 인증, 캐시, 운영 대시보드를 서비스화합니다."
   }
 ];
 
@@ -49,7 +49,7 @@ export const projects = [
     function: "대규모 사이트의 UI 품질, 성능 신호, 구매 흐름 이상을 주기적으로 탐지하는 진단 플랫폼",
     structure: "Playwright 단일 goto()에서 네트워크 타이밍, 리소스 실패, JS 오류, 깨진 이미지/링크, 화이트스크린 검사를 통합 수집",
     usage: "표준 onclick 휴리스틱으로 구매 흐름을 재현하고 pass/partial/fail/auth_required 등 단계별 판정으로 조치 우선순위를 제공",
-    stack: ["Python", "Playwright", "FastAPI", "Next.js", "MySQL", "LLM"]
+    stack: ["Python", "Playwright", "FastAPI", "MySQL", "LLM"]
   },
   {
     id: "gsc-seo",
@@ -77,9 +77,9 @@ export const projects = [
     title: "AI Commerce Analytics Cockpit",
     short: "SHAP/Causal SHAP, clustering, Sales Shapley로 쇼핑몰 성과 요인을 해석하는 분석 Cockpit.",
     function: "매출, 트래픽, 상품, 검색, 외부 지표를 한 화면에서 해석하는 의사결정 대시보드",
-    structure: "FastAPI backend, Next.js BFF, Lakebase to PostgreSQL sync",
+    structure: "FastAPI backend, Lakebase to PostgreSQL sync, cache-first serving",
     usage: "계정별 접근 제어와 cache-first serving으로 멀티테넌트 분석 경험 제공",
-    stack: ["FastAPI", "Next.js", "PostgreSQL", "RLS", "SHAP", "Sales Shapley"]
+    stack: ["FastAPI", "PostgreSQL", "RLS", "SHAP", "Sales Shapley"]
   },
   {
     id: "geo",
@@ -101,7 +101,7 @@ export const experiences = [
     lines: [
       "Databricks 데이터 파이프라인과 LangGraph AI Agent 분석 시스템 설계",
       "GSC/SEO 자동화, UI 품질 진단, VoC 분석, GEO 측정 워크플로우 구축",
-      "FastAPI/Next.js 기반 데이터 서비스 API와 보안/운영 구조 설계"
+      "FastAPI 기반 데이터 서비스 API와 보안/운영 구조 설계"
     ]
   },
   {

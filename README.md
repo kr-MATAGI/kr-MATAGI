@@ -48,7 +48,7 @@ Databricks 기반 데이터 파이프라인, 분석 자동화, LangGraph 멀티�
 GEO 측정 및 SEO 데이터 정합성 개선
 
 **Core Stack**  
-Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, Playwright, LangGraph, Gemini/OpenAI API
+Python, FastAPI, Airflow, Databricks, PostgreSQL, MySQL, Playwright, LangGraph, Gemini/OpenAI API
 
 **Engineering Focus**  
 OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense, cache-first serving, structured output validation
@@ -65,7 +65,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 - LLM Agent를 활용한 업무 자동화, 데이터 분석, 운영 지원 워크플로우
 - Databricks, Airflow, Delta Lake 기반 대규모 데이터 파이프라인
-- FastAPI/Next.js 기반 데이터 서비스 API와 멀티테넌트 보안 구조
+- FastAPI 기반 데이터 서비스 API와 멀티테넌트 보안 구조
 - SEO/GEO, VoC, quality diagnostics, report automation
 - Structured output, self-correction, tool routing, prompt-injection defense
 - SHAP/Causal SHAP, Sales Shapley, text data quality, model evaluation
@@ -88,7 +88,6 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 ### Backend
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-2563EB?style=flat-square&logo=nextdotjs&logoColor=white)
 
 ### Database / Queue
 
@@ -179,7 +178,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 - **Function**: 서비스 성과 요인을 해석하는 AI 분석 대시보드
 - **Backend**: FastAPI 기반 API와 Lakebase → PostgreSQL 동기화
-- **Frontend**: Next.js BFF 기반 데이터 조회 및 시각화
+- **Dashboard**: 계정별 데이터 조회, 성과 요인 시각화, 운영 지표 탐색 화면
 - **Analysis**: SHAP/Causal SHAP, clustering, Sales Shapley
 - **Security**: OAuth/JWT/RLS 접근 제어
 - **Operations**: cache-first serving, SonarQube 기반 정적분석 개선
@@ -244,7 +243,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 2025.08 ~ Present
 
 - **Role**: AI/Data Engineer
-- **Build**: Databricks 데이터 파이프라인, LangGraph AI Agent, FastAPI/Next.js 데이터 서비스 API
+- **Build**: Databricks 데이터 파이프라인, LangGraph AI Agent, FastAPI 데이터 서비스 API
 - **Automation**: 리포트 자동화, UI 품질 진단, GSC/SEO 자동화, VoC 분석, GEO 측정
 - **Security**: OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense
 - **Ops**: Playwright, Selenium, n8n, Airflow 기반 자동화와 데이터 정합성 검증

@@ -24,7 +24,7 @@ const filters = [
 
 const stackGroups = [
   ["AI / Agent", ["LangGraph", "LangChain", "OpenAI API", "Gemini", "Pydantic"]],
-  ["Data Service", ["Python", "FastAPI", "Next.js", "TypeScript", "SSE"]],
+  ["Data Service", ["Python", "FastAPI", "TypeScript", "SSE"]],
   ["Data", ["Airflow", "Databricks", "S3", "PostgreSQL", "MySQL"]],
   ["Automation", ["Playwright", "Selenium", "n8n", "GSC API", "Slack API"]]
 ];
@@ -75,7 +75,7 @@ export default function ProfilePage() {
             <p className="lead">
               <span>현재 Cafe24에서 </span>
               <span>Databricks, Airflow, LangGraph, </span>
-              <span>FastAPI, Next.js를 연결해 </span>
+              <span>FastAPI를 연결해 </span>
               <span>데이터 수집부터 분석, 리포팅, </span>
               <span>AI Agent 서비스화까지 이어지는 </span>
               <span>자동화 시스템을 구축합니다.</span>
@@ -125,7 +125,7 @@ export default function ProfilePage() {
               <span>Databricks</span>
               <span>Airflow</span>
               <span>FastAPI</span>
-              <span>Next.js</span>
+              <span>Playwright</span>
               <span>ADsP</span>
             </div>
           </aside>
