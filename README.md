@@ -48,7 +48,7 @@ Databricks 기반 데이터 파이프라인, 분석 자동화, LangGraph 멀티�
 GEO 측정 및 SEO 데이터 정합성 개선
 
 **Core Stack**  
-Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, ClickHouse, Playwright, LangGraph, Gemini/OpenAI API
+Python, FastAPI, Next.js, Airflow, Databricks, PostgreSQL, MySQL, Playwright, LangGraph, Gemini/OpenAI API
 
 **Engineering Focus**  
 OAuth/JWT, PostgreSQL RLS, HMAC, prompt-injection defense, cache-first serving, structured output validation
@@ -97,7 +97,6 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-4F46E5?style=flat-square&logo=apachekafka&logoColor=white)
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
 
 ### Data Platform / Automation
 

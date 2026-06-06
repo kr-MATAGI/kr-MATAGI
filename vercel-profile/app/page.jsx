@@ -25,7 +25,7 @@ const filters = [
 const stackGroups = [
   ["AI / Agent", ["LangGraph", "LangChain", "OpenAI API", "Gemini", "Pydantic"]],
   ["Data Service", ["Python", "FastAPI", "Next.js", "TypeScript", "SSE"]],
-  ["Data", ["Airflow", "Databricks", "S3", "PostgreSQL", "MySQL", "ClickHouse"]],
+  ["Data", ["Airflow", "Databricks", "S3", "PostgreSQL", "MySQL"]],
   ["Automation", ["Playwright", "Selenium", "n8n", "GSC API", "Slack API"]]
 ];
 
