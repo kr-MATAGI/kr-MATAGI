@@ -2,12 +2,12 @@
   <h1>Matagi | AI & Data Engineer</h1>
   <strong>AI/Data Engineer · Backend Engineer · Agent Workflow Builder</strong>
   <br />
-  LLM Agent, Databricks, Data Pipeline, E-commerce Automation
+  LLM Agent, Databricks, Data Pipeline, Workflow Automation
   <br />
   <br />
   <img src="https://img.shields.io/badge/LLM_Agent-7C3AED?style=flat-square&logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Data_Pipeline-0EA5E9?style=flat-square&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ecommerce_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Workflow_Automation-10B981?style=flat-square&logo=airflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Backend_Service-F59E0B?style=flat-square&logo=fastapi&logoColor=white" />
 </div>
 
@@ -21,7 +21,7 @@
 AI/Data Engineer
 
 **Domain**  
-E-commerce automation, data pipeline, AI agent workflow
+Workflow automation, data pipeline, AI agent system
 
 **Main Work**  
 Databricks 기반 데이터 파이프라인과 LangGraph 멀티에이전트 LLM 시스템 구축
@@ -48,7 +48,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ![Focus](https://img.shields.io/badge/Focus-10B981?style=for-the-badge)
 
-- LLM Agent를 활용한 이커머스 운영 자동화 및 분석 워크플로우
+- LLM Agent를 활용한 업무 자동화 및 분석 워크플로우
 - Databricks, Airflow, Delta Lake 기반 데이터 파이프라인
 - FastAPI/Next.js 기반 멀티테넌트 서비스 백엔드
 - SEO/GEO, VoC, storefront quality diagnostics, report automation

@@ -68,10 +68,10 @@ export default function ProfilePage() {
           <div className="heroCopy">
             <p className="eyebrow">AI/Data Engineer · Agent Workflow Builder</p>
             <h1>
-              <span>데이터 파이프라인과</span>{" "}
+              <span>데이터 흐름을 설계하고</span>{" "}
               <span>AI Agent로</span>{" "}
-              <span>이커머스 운영</span>{" "}
-              <span>자동화를 만듭니다.</span>
+              <span>반복 업무를</span>{" "}
+              <span>자동화합니다.</span>
             </h1>
             <p className="lead">
               <span>Cafe24 도메인에서 </span>
