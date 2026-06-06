@@ -85,9 +85,9 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 
 ## Certifications
 
-- ADsP (Advanced Data Analytics Semi-Professional) · 2026.03
-- Engineer Information Processing
-- Linux Master Level 2
+- ADsP(데이터분석준전문가)
+- 정보처리기사
+- 리눅스마스터 2급
 
 ## Selected Projects
 
