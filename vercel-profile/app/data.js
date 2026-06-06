@@ -1,6 +1,6 @@
 export const metrics = [
   { label: "Cafe24 PRO GSC", value: "3만+", caption: "전체 등록 및 일일 수집" },
-  { label: "Storefront UI", value: "3만+", caption: "품질·성능·퍼널 진단" },
+  { label: "Mall QA 자동화", value: "3만+", caption: "자사몰 품질·성능·퍼널 진단" },
   { label: "VoC Corpus", value: "5.5만", caption: "상담 데이터 분석" },
   { label: "Network Cost", value: "83%", caption: "UI 진단 통합 로드 절감" }
 ];
@@ -44,7 +44,7 @@ export const projects = [
   {
     id: "ui-tester",
     category: "automation",
-    title: "Large-scale Storefront UI Diagnostics",
+    title: "자사몰 진단 자동화 시스템",
     short: "약 3만 개 이상 Cafe24 PRO 몰의 네트워크, 느린 콘텐츠, 오탈자, 리소스 실패, 구매 퍼널 장애를 자동 점검.",
     function: "대규모 사이트의 UI 품질, 성능 신호, 구매 흐름 이상을 주기적으로 탐지하는 진단 플랫폼",
     structure: "Playwright 단일 goto()에서 네트워크 타이밍, 리소스 실패, JS 오류, 깨진 이미지/링크, 화이트스크린 검사를 통합 수집",

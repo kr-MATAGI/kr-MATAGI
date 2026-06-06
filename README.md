@@ -145,7 +145,7 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 - **Analysis**: 문제-원인-데이터-액션 구조, Sales Shapley 기반 매출 기여도 분석
 - **Use Case**: 운영자가 매출 변화 원인과 다음 액션을 빠르게 파악할 수 있는 보고서 자동화
 
-**Large-scale Storefront UI Diagnostics**
+**자사몰 진단 자동화 시스템**
 
 - **Function**: 현재까지 약 3만 개 이상 Cafe24 PRO 몰 UI 품질 자동 진단
 - **Checks**: 네트워크 타이밍, 느린 콘텐츠, 리소스 실패, 깨진 이미지/링크, JavaScript 오류, 화이트스크린, 오탈자, 구매 퍼널 장애
