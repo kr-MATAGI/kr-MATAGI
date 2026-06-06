@@ -1,6 +1,6 @@
 export const metrics = [
   { label: "Cafe24 PRO GSC", value: "3만+", caption: "전체 등록 및 일일 수집" },
-  { label: "Storefront UI", value: "3만+", caption: "Cafe24 PRO 몰 품질 진단" },
+  { label: "Storefront UI", value: "3만+", caption: "품질·성능·퍼널 진단" },
   { label: "VoC Corpus", value: "5.5만", caption: "상담 데이터 분석" },
   { label: "Network Cost", value: "83%", caption: "UI 진단 통합 로드 절감" }
 ];
@@ -45,11 +45,11 @@ export const projects = [
     id: "ui-tester",
     category: "automation",
     title: "Large-scale Storefront UI Diagnostics",
-    short: "약 3만 개 이상 Cafe24 PRO 몰의 SSL, 오탈자, 깨진 리소스, JS 오류, 구매 퍼널 장애를 자동 점검.",
-    function: "대규모 쇼핑몰 품질 이슈를 주기적으로 탐지하는 진단 플랫폼",
-    structure: "Playwright 단일 로드에서 여러 검사를 통합 실행",
-    usage: "사이트별 셀렉터 사전 없이 Cafe24 표준 패턴으로 구매 흐름을 재현하고 진단",
-    stack: ["Python", "Playwright", "FastAPI", "Next.js", "MySQL"]
+    short: "약 3만 개 이상 Cafe24 PRO 몰의 네트워크, 느린 콘텐츠, 오탈자, 리소스 실패, 구매 퍼널 장애를 자동 점검.",
+    function: "대규모 사이트의 UI 품질, 성능 신호, 구매 흐름 이상을 주기적으로 탐지하는 진단 플랫폼",
+    structure: "Playwright 단일 goto()에서 네트워크 타이밍, 리소스 실패, JS 오류, 깨진 이미지/링크, 화이트스크린 검사를 통합 수집",
+    usage: "표준 onclick 휴리스틱으로 구매 흐름을 재현하고 pass/partial/fail/auth_required 등 단계별 판정으로 조치 우선순위를 제공",
+    stack: ["Python", "Playwright", "FastAPI", "Next.js", "MySQL", "LLM"]
   },
   {
     id: "gsc-seo",

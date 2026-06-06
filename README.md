@@ -148,10 +148,13 @@ Python backend, C++ navigation software, Korean NLP/NER/G2P research
 **Large-scale Storefront UI Diagnostics**
 
 - **Function**: 현재까지 약 3만 개 이상 Cafe24 PRO 몰 UI 품질 자동 진단
-- **Checks**: SSL, 오탈자, 깨진 이미지/링크, JavaScript 오류, 화이트스크린, 구매 퍼널 장애
-- **Structure**: Playwright 단일 로드에서 여러 검사를 통합 실행
-- **Automation**: 사이트별 셀렉터 사전 없이 Cafe24 표준 패턴으로 구매 흐름 재현
-- **Use Case**: 운영자가 대규모 쇼핑몰 품질 이슈를 주기적으로 탐지하고 조치할 수 있는 진단 플랫폼
+- **Checks**: 네트워크 타이밍, 느린 콘텐츠, 리소스 실패, 깨진 이미지/링크, JavaScript 오류, 화이트스크린, 오탈자, 구매 퍼널 장애
+- **Structure**: Playwright 단일 `goto()`에서 네트워크, 콘텐츠, JS, 리소스 검사를 통합 수집
+- **Optimization**: 페이지당 로딩 6회 -> 1회로 줄여 네트워크 비용 약 83%, 소요시간 약 60% 절감
+- **Typo Diagnosis**: LLM 기반 오탈자 검사 프롬프트와 후처리 룰을 개선해 오탐 약 80% 감소
+- **Funnel Diagnosis**: Cafe24 표준 `onclick` 휴리스틱으로 구매 흐름을 재현하고 pass/partial/fail/auth_required 등 단계별 판정
+- **Reliability**: BaseCheckScheduler, Processing -> Pending 복구, 병렬 워커, 빈페이지 LLM 스킵으로 운영 안정성 개선
+- **Use Case**: 운영자가 대규모 사이트 품질 이슈를 주기적으로 탐지하고 조치 우선순위를 잡을 수 있는 진단 플랫폼
 
 **GSC/SEO Automation, Daily Collection, and Reporting Pipeline**
 
