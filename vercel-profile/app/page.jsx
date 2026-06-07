@@ -53,10 +53,6 @@ export default function ProfilePage() {
   return (
     <>
       <header className="siteHeader">
-        <a className="brand" href="#top" aria-label="최재훈 프로필 홈">
-          <span className="brandMark">M</span>
-          <span>Matagi</span>
-        </a>
         <nav className="nav" aria-label="Primary navigation">
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
