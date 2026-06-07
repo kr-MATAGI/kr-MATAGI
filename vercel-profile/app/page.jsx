@@ -127,8 +127,6 @@ export default function ProfilePage() {
               <span>Databricks</span>
               <span>Airflow</span>
               <span>FastAPI</span>
-              <span>Playwright</span>
-              <span>ADsP</span>
             </div>
           </aside>
         </section>
