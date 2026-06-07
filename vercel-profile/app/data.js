@@ -1,8 +1,8 @@
 export const metrics = [
-  { label: "Cafe24 PRO GSC", value: "3만+", caption: "전체 등록 및 일일 수집" },
-  { label: "Mall QA 자동화", value: "3만+", caption: "자사몰 품질·성능·퍼널 진단" },
-  { label: "VoC Corpus", value: "5.5만", caption: "상담 데이터 분석" },
-  { label: "Network Cost", value: "83%", caption: "UI 진단 통합 로드 절감" }
+  { label: "GSC Automation", value: "3만+", caption: "소유권 검증·사이트맵·일일 수집 자동화" },
+  { label: "Mall QA Coverage", value: "3만+", caption: "품질·성능·구매 퍼널 자동 진단" },
+  { label: "VoC Insight Pipeline", value: "5.5만", caption: "LLM 추출·클러스터링·FAQ/코칭 Agent 연계" },
+  { label: "Job Throughput", value: "3억+", caption: "SNS 마케팅 작업 처리량 확장" }
 ];
 
 export const focusAreas = [
