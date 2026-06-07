@@ -124,9 +124,12 @@ export default function ProfilePage() {
             </div>
             <div className="tagGrid">
               <span>LLM Agent</span>
+              <span>LangGraph</span>
               <span>Databricks</span>
               <span>Airflow</span>
               <span>FastAPI</span>
+              <span>Python</span>
+              <span>PostgreSQL</span>
             </div>
           </aside>
         </section>
