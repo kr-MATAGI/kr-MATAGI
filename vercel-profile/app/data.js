@@ -42,6 +42,16 @@ export const projects = [
     stack: ["Databricks SQL", "Gemini", "Plotly", "Jinja2", "FastAPI"]
   },
   {
+    id: "cafe24-pro-control-room",
+    category: "automation",
+    title: "Cafe24 Pro VIP Control Room",
+    short: "VIP 고객이 복잡한 운영자 센터를 거치지 않고 서비스 신청, Agent 실행, 데이터 리포트를 확인하는 별도 애플리케이션.",
+    function: "Cafe24 Pro VIP 고객을 위한 원클릭 서비스 신청, Agent 실행, 데이터 기반 분석과 리포트 제공",
+    structure: "운영 기능 큐레이션 -> 신청/실행 workflow -> Agent orchestration -> 데이터 분석/리포트 화면",
+    usage: "기존 자사몰 운영자 센터의 복잡한 관리 흐름을 보완하고 주요 기능을 더 쉽게 사용할 수 있는 Control Room 제공",
+    stack: ["FastAPI", "LangGraph", "Databricks", "PostgreSQL", "OAuth/JWT"]
+  },
+  {
     id: "ui-tester",
     category: "automation",
     title: "자사몰 진단 자동화 시스템",
@@ -141,6 +151,7 @@ export const experiences = [
     lines: [
       "Databricks 데이터 파이프라인과 LangGraph AI Agent 분석 시스템 설계",
       "GSC/SEO 자동화, UI 품질 진단, VoC 분석, GEO 측정 워크플로우 구축",
+      "Cafe24 Pro VIP 고객용 Control Room 애플리케이션 개발",
       "FastAPI 기반 데이터 서비스 API와 보안/운영 구조 설계"
     ]
   },
