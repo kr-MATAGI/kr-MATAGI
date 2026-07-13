@@ -1,8 +1,8 @@
 # Matagi Profile Page
 
-Vercel에 배포할 수 있는 프로필/이력 소개 페이지입니다.
+Vercel에 배포하는 개발자 포트폴리오입니다.
 
-Cafe24 업무 경험을 중심으로 AI Agent, 데이터 파이프라인, SEO/GSC 자동화, 리포팅 자동화 경험을 동적으로 탐색할 수 있게 구성했습니다.
+Cafe24의 데이터 자동화와 AI Agent, HotSeller의 대량 작업 처리 백엔드, NAVIS-AMS의 Live Map·Online Routing, 부산대학교 대학원의 G2P·NER 연구를 함께 소개합니다.
 
 ## 로컬 미리보기
 
@@ -45,8 +45,10 @@ vercel
 ## 구성
 
 - `app/page.jsx`: 인터랙티브 프로필 페이지
-- `app/data.js`: 성과 지표, 프로젝트, 경력, 저장소, 논문 데이터
+- `app/data.js`: 성과 지표, 프로젝트, 경력, 저장소, 상세 연구 데이터
 - `app/globals.css`: 반응형 스타일
 - `app/layout.jsx`: 메타데이터
 - `public/profile.jpg`: 프로필 사진
+- `public/ui-diagnostics-dashboard.jpg`: 자사몰 UI 자동 진단 운영 화면
+- `public/voc-clustering-dashboard.jpg`: VoC 클러스터링 분석 화면
 - `vercel.json`: Vercel 배포 설정

@@ -1,22 +1,38 @@
 export const metrics = [
-  { label: "GSC Automation", value: "3만+", caption: "소유권 검증·사이트맵·일일 수집 자동화" },
-  { label: "Mall QA Coverage", value: "3만+", caption: "품질·성능·구매 퍼널 자동 진단" },
-  { label: "VoC Insight Pipeline", value: "5.5만", caption: "LLM 추출·클러스터링·FAQ/코칭 Agent 연계" },
-  { label: "Job Throughput", value: "3억+", caption: "SNS 마케팅 작업 처리량 확장" }
+  {
+    label: "Cafe24 · Mall QA",
+    value: "2.8만",
+    caption: "활성 자사몰 UI 품질과 구매 흐름 자동 진단"
+  },
+  {
+    label: "HotSeller · Backend",
+    value: "3억+",
+    caption: "월간 SNS 작업 처리 가능 규모로 확장"
+  },
+  {
+    label: "NAVIS-AMS",
+    value: "Live Map",
+    caption: "Mercedes-Benz Online Routing · HMI 연동"
+  },
+  {
+    label: "Korean NLP Research",
+    value: "KCC 2023",
+    caption: "언어공학 분야 우수논문상"
+  }
 ];
 
 export const focusAreas = [
   {
-    title: "LLM Agent",
-    body: "LangGraph 기반 Supervisor/Router/Worker 구조로 자연어 질의를 데이터 분석과 운영 자동화 작업으로 라우팅합니다."
+    title: "Collect",
+    body: "Airflow, S3, Databricks로 운영 데이터를 수집하고 적재 단계에서 정합성을 확인합니다."
   },
   {
-    title: "Data Pipeline",
-    body: "Airflow, S3, Databricks, PostgreSQL을 연결해 대규모 수집, 적재, 검증, 리포팅 흐름을 만듭니다."
+    title: "Analyze",
+    body: "LangGraph가 질의를 분해하고 지표 분석, 문서 검색, SQL 실행을 전문 Agent로 연결합니다."
   },
   {
-    title: "Data Service",
-    body: "FastAPI 기반 API로 분석 결과, Agent workflow, 인증, 캐시, 운영 대시보드를 서비스화합니다."
+    title: "Deliver",
+    body: "FastAPI와 SSE로 분석 결과를 API, 리포트, 대시보드와 실제 운영 흐름에 제공합니다."
   }
 ];
 
@@ -24,122 +40,68 @@ export const projects = [
   {
     id: "agent-bricks",
     category: "agent",
-    title: "Databricks LangGraph Multi-Agent Analytics",
-    short: "자연어 질의를 Databricks Genie, Vector Search, Dynamic SQL Worker로 라우팅하는 분석 Agent.",
-    function: "비개발자가 자연어로 운영 지표와 퍼널, SEO 데이터를 질의할 수 있는 분석 인터페이스",
-    structure: "Supervisor / Router / Worker / Sub-Supervisor 4-layer LangGraph",
-    usage: "복합 질의를 데이터 소스별로 분해하고 structured output, route-loop 방지, self-correction으로 결과를 검증",
-    stack: ["LangGraph", "Databricks", "Vector Search", "SQL Warehouse", "Pydantic"]
-  },
-  {
-    id: "weekly-report",
-    category: "report",
-    title: "E-commerce Weekly Report Automation",
-    short: "방문자, 매출, 퍼널, SEO 데이터를 분석해 HTML/PDF 주간 리포트를 자동 생성.",
-    function: "쇼핑몰 주간 성과를 문제-원인-데이터-액션 구조로 설명하는 리포트 자동화",
-    structure: "Databricks SQL -> LLM reasoning -> Plotly chart -> HTML/PDF report",
-    usage: "운영자가 매출 변화 원인, 전환율, 객단가, 방문자 변화와 다음 액션을 빠르게 파악",
-    stack: ["Databricks SQL", "Gemini", "Plotly", "Jinja2", "FastAPI"]
-  },
-  {
-    id: "cafe24-pro-control-room",
-    category: "automation",
-    title: "Cafe24 Pro VIP Control Room",
-    short: "VIP 고객이 복잡한 운영자 센터를 거치지 않고 서비스 신청, Agent 실행, 데이터 리포트를 확인하는 별도 애플리케이션.",
-    function: "Cafe24 Pro VIP 고객을 위한 원클릭 서비스 신청, Agent 실행, 데이터 기반 분석과 리포트 제공",
-    structure: "운영 기능 큐레이션 -> 신청/실행 workflow -> Agent orchestration -> 데이터 분석/리포트 화면",
-    usage: "기존 자사몰 운영자 센터의 복잡한 관리 흐름을 보완하고 주요 기능을 더 쉽게 사용할 수 있는 Control Room 제공",
-    stack: ["FastAPI", "LangGraph", "Databricks", "PostgreSQL", "OAuth/JWT"]
-  },
-  {
-    id: "ui-tester",
-    category: "automation",
-    title: "자사몰 진단 자동화 시스템",
-    short: "약 3만 개 이상 Cafe24 PRO 몰의 네트워크, 느린 콘텐츠, 오탈자, 리소스 실패, 구매 퍼널 장애를 자동 점검.",
-    function: "대규모 사이트의 UI 품질, 성능 신호, 구매 흐름 이상을 주기적으로 탐지하는 진단 플랫폼",
-    structure: "Playwright 단일 goto()에서 네트워크 타이밍, 리소스 실패, JS 오류, 깨진 이미지/링크, 화이트스크린 검사를 통합 수집",
-    usage: "표준 onclick 휴리스틱으로 구매 흐름을 재현하고 pass/partial/fail/auth_required 등 단계별 판정으로 조치 우선순위를 제공",
-    stack: ["Python", "Playwright", "FastAPI", "MySQL", "LLM"]
+    title: "멀티에이전트 분석 시스템",
+    short: "복합 질의를 지표 분석·문서 검색·SQL 실행으로 나누고 작업별 전문 Agent에 전달합니다.",
+    function: "자연어로 운영 지표와 문서를 조회하고 필요한 SQL까지 실행하는 분석 인터페이스",
+    structure: "Supervisor → Router → 지표·문서·SQL Agent → 결과 검증",
+    usage: "각 Agent의 결과가 정해진 형식과 기준을 충족하는지 확인하고, 불완전하면 다시 실행합니다.",
+    stack: ["LangGraph", "Databricks Genie", "Vector Search", "SQL Warehouse", "Pydantic"]
   },
   {
     id: "gsc-seo",
     category: "pipeline",
-    title: "GSC/SEO Automation and Daily Reporting Pipeline",
-    short: "약 3만 Cafe24 PRO 몰의 GSC 등록, 매일 수집, SEO 리포트를 자동화.",
-    function: "Google Search Console 등록, 소유권 검증, 사이트맵 제출, 색인 요청 자동화",
-    structure: "GSC API -> Airflow -> S3 -> Databricks -> SEO report",
-    usage: "대량 계정/사이트 단위 API 데이터를 매일 수집해 SEO 리포트와 정합성 검증에 활용",
+    title: "GSC 등록·수집 자동화",
+    short: "약 3만 Cafe24 PRO 몰의 GSC 계정 연결, 소유권 확인, 사이트맵 제출과 일일 수집을 자동화합니다.",
+    function: "자사몰과 GSC 계정을 연결하고 등록부터 SEO 데이터 수집까지 추적하는 운영 파이프라인",
+    structure: "계정 연결 → 소유권 확인 → 사이트맵 제출 → 색인 상태 확인 → Airflow 일일 수집",
+    usage: "date·query·page·device를 수집 기준으로 clicks·impressions·CTR·average position을 적재하고 오류를 재처리합니다.",
     stack: ["Airflow", "GSC API", "S3", "Databricks", "Selenium"]
+  },
+  {
+    id: "ui-tester",
+    category: "automation",
+    title: "자사몰 UI 자동 진단",
+    short: "약 2.8만 활성 자사몰의 네트워크, 리소스, JavaScript, 오탈자와 구매 퍼널을 자동 점검합니다.",
+    function: "대규모 사이트의 UI 품질과 구매 흐름 이상을 정기적으로 탐지하는 진단 플랫폼",
+    structure: "4종 Scheduler의 다수 Worker가 몰 단위 작업을 병렬 처리하고, 수집 결과를 UI 검사 6종에 공유",
+    usage: "네트워크 비용 83%, 검사 소요 시간 60%를 절감하고 오류 유형과 진행 상태를 운영 대시보드로 제공합니다.",
+    stack: ["Python", "Playwright", "FastAPI", "MySQL", "asyncio"],
+    image: "/ui-diagnostics-dashboard.jpg",
+    imageAlt: "자사몰 UI 자동 진단 운영 대시보드",
+    imageCaption: "실제 UI Tester 운영 대시보드 일부"
   },
   {
     id: "voc-agent",
     category: "agent",
-    title: "VoC Analysis and Personalized Coaching Agent",
-    short: "5.5만 행 상담 데이터를 LLM/embedding/clustering으로 구조화하고 코칭 Agent로 연결.",
-    function: "고객 상담 이슈와 비즈니스 지표를 기반으로 FAQ와 코칭 응답 생성",
-    structure: "LLM extraction -> embedding -> UMAP/clustering -> FastAPI/SSE service",
-    usage: "반복 문의와 불만 원인을 데이터 근거와 함께 확인하고 액션을 추천받는 구조",
-    stack: ["FastAPI", "SSE", "BGE-M3", "UMAP", "PostgreSQL", "Redis"]
-  },
-  {
-    id: "commerce-cockpit",
-    category: "analytics",
-    title: "AI Commerce Analytics Cockpit",
-    short: "SHAP/Causal SHAP, clustering, Sales Shapley로 쇼핑몰 성과 요인을 해석하는 분석 Cockpit.",
-    function: "매출, 트래픽, 상품, 검색, 외부 지표를 한 화면에서 해석하는 의사결정 대시보드",
-    structure: "FastAPI backend, Lakebase to PostgreSQL sync, cache-first serving",
-    usage: "계정별 접근 제어와 cache-first serving으로 멀티테넌트 분석 경험 제공",
-    stack: ["FastAPI", "PostgreSQL", "RLS", "SHAP", "Sales Shapley"]
-  },
-  {
-    id: "geo",
-    category: "analytics",
-    title: "GEO Measurement Pipeline",
-    short: "ChatGPT/Gemini 답변 내 자사몰 브랜드 추천·인용률을 Hit Score로 정량화.",
-    function: "생성형 AI 검색 환경에서 브랜드 노출도를 측정",
-    structure: "브랜드 선정 -> 질의 생성 -> AI 응답 수집 -> Hit Score 평가",
-    usage: "기존 SEO로 측정하기 어려운 AI 검색 노출도를 수치화하고 개선점을 추적",
-    stack: ["OpenAI API", "Gemini", "Databricks SQL", "Pydantic", "httpx"]
+    title: "VoC 분석과 코칭 Agent",
+    short: "5.5만 행 상담 데이터를 구조화하고 불만 원인과 반복 문의를 코칭 Agent로 연결합니다.",
+    function: "고객 상담 이슈를 데이터 근거와 함께 분류하고 FAQ와 개인화 코칭 응답을 생성하는 서비스",
+    structure: "LLM 추출 → BGE-M3 임베딩 → UMAP·HDBSCAN 클러스터링 → FastAPI·SSE 응답",
+    usage: "클러스터별 주요 불만, 요청, 감정과 대표 문장을 검색하고 분석 결과를 API로 제공합니다.",
+    stack: ["FastAPI", "SSE", "BGE-M3", "UMAP", "HDBSCAN", "PostgreSQL"],
+    image: "/voc-clustering-dashboard.jpg",
+    imageAlt: "VoC 클러스터링 분석 대시보드",
+    imageCaption: "실제 VoC 클러스터링 분석 화면"
   },
   {
     id: "hotseller-job-pipeline",
     category: "backend",
-    title: "HotSeller SNS Marketing Job Processing Pipeline",
-    short: "Scheduler, RabbitMQ, Redis, Consumer worker로 대량 SNS 마케팅 작업을 분산 처리.",
-    function: "서비스/마켓별 계정 작업을 안정적으로 분배하고 고처리량 운영을 지원하는 백엔드 파이프라인",
-    structure: "Scheduler -> RabbitMQ -> Redis Dispatcher -> Consumer workers -> PostgreSQL",
-    usage: "월 5천만 건 수준의 작업 처리량을 3억 건 이상 처리 가능한 구조로 확장",
-    stack: ["Python", "RabbitMQ", "Redis", "PostgreSQL", "AWS EC2"]
+    title: "HotSeller 작업 처리 구조 확장",
+    short: "Scheduler, RabbitMQ, Redis와 Consumer로 SNS 마케팅 작업을 분산 처리했습니다.",
+    function: "서비스와 마켓별 계정 작업을 안정적으로 분배하고 운영 상태를 추적하는 백엔드 파이프라인",
+    structure: "Scheduler → RabbitMQ Queue → Redis Dispatcher → Consumer → PostgreSQL",
+    usage: "월 5천만 건 수준에서 3억 건 이상 처리 가능한 구조로 확장하고 작업 로그 저장 용량을 약 3배 절감했습니다.",
+    stack: ["Python", "RabbitMQ", "Redis", "PostgreSQL", "AWS EC2", "Slack"]
   },
   {
-    id: "hotseller-ops-optimization",
-    category: "backend",
-    title: "HotSeller PostgreSQL Operations Optimization",
-    short: "작업 로그와 운영 대시보드 쿼리를 최적화해 저장 용량과 장애 대응 흐름을 개선.",
-    function: "작업 이력, 계정 상태, 서비스 이슈를 운영자가 빠르게 파악할 수 있는 데이터 운영 기반",
-    structure: "Partitioning, indexing, column split, JSONB storage tuning, Slack alert queries",
-    usage: "작업 로그 저장 구조를 개선해 저장 용량을 약 3배 절감하고 운영 분석 쿼리를 정리",
-    stack: ["PostgreSQL", "SQL", "JSONB", "Slack API", "Python"]
-  },
-  {
-    id: "navis-live-map",
+    id: "navis-navigation",
     category: "automotive",
-    title: "Mercedes-Benz Navigation Live Map",
-    short: "목적지 경로에 필요한 지도 타일을 실시간 다운로드하고 검증하는 내비게이션 온라인 기능.",
-    function: "벤츠 내비게이션에서 온라인 지도 데이터를 안전하게 갱신하고 오류 타일을 재시도하는 기능",
-    structure: "cURL download -> multithreaded processing -> SHA-256 validation -> tile replacement",
-    usage: "오프라인 지도와 온라인 타일 갱신을 결합해 자동차 HMI 환경의 지도 최신성을 보강",
-    stack: ["C++", "cURL", "Multithreading", "SHA-256", "Automotive HMI"]
-  },
-  {
-    id: "navis-online-routing",
-    category: "automotive",
-    title: "Mercedes-Benz Online Routing Integration",
-    short: "WebSocket 기반 온라인 경로 탐색과 온보드/온라인 경로 전환을 개선.",
-    function: "온라인 경로 업데이트, 대체 경로 ETA, UI-내비게이션 모듈 인터페이스를 연결하는 기능",
-    structure: "WebSocket route updates, RESTful API integration, SQLite, shared memory interfaces",
-    usage: "자동차 HMI에서 온라인 서비스와 내비게이션 코어가 안정적으로 연동되도록 개선",
-    stack: ["C++", "WebSocket", "RESTful API", "SQLite", "Shared Memory"]
+    title: "Mercedes-Benz Live Map · Online Routing",
+    short: "지도 타일 갱신과 온라인 경로 탐색을 내비게이션 코어와 HMI에 연결했습니다.",
+    function: "차량 내비게이션에서 온라인 지도와 경로 정보를 안전하게 갱신하는 기능",
+    structure: "cURL 병렬 다운로드 → SHA-256 무결성 검증 → 실패 타일 재시도 · WebSocket 경로 갱신",
+    usage: "Live Map 데이터 신뢰성을 확보하고 Online Routing, UI 인터페이스, Android JNI/NDK 포팅을 구현했습니다.",
+    stack: ["C++", "cURL", "WebSocket", "SQLite", "SHA-256", "JNI/NDK"]
   }
 ];
 
@@ -147,12 +109,12 @@ export const experiences = [
   {
     company: "Cafe24",
     period: "2025.08 - Present",
-    role: "AI/Data Engineer · FGS Team",
+    role: "AI/Data Engineer",
     lines: [
-      "Databricks 데이터 파이프라인과 LangGraph AI Agent 분석 시스템 설계",
-      "GSC/SEO 자동화, UI 품질 진단, VoC 분석, GEO 측정 워크플로우 구축",
-      "Cafe24 Pro VIP 고객용 Control Room 애플리케이션 개발",
-      "FastAPI 기반 데이터 서비스 API와 보안/운영 구조 설계"
+      "Databricks 데이터 파이프라인과 LangGraph 멀티에이전트 분석 시스템 설계",
+      "약 3만 Cafe24 PRO 몰의 GSC 등록·수집·SEO 리포팅 자동화",
+      "약 2.8만 활성 자사몰 UI 품질 진단과 5.5만 행 VoC 분석 서비스 구축",
+      "FastAPI 기반 분석 API, SSE 응답과 운영 대시보드 개발"
     ]
   },
   {
@@ -160,10 +122,10 @@ export const experiences = [
     period: "2023.07 - 2024.10",
     role: "Core Backend Developer",
     lines: [
-      "Python 기반 SNS 마케팅 솔루션 개발 및 운영",
-      "PostgreSQL 파티셔닝, 인덱싱, 작업 로그 구조 개선",
-      "RabbitMQ, Redis, Scheduler, Consumer 기반 작업 처리량 확장",
-      "Slack 알림과 운영 분석 쿼리로 서비스 이슈 탐지 및 대응 흐름 개선"
+      "Python 기반 SNS 마케팅 솔루션 개발과 운영",
+      "Scheduler·RabbitMQ·Redis·Consumer 작업 처리 구조 개선",
+      "월 5천만 건 수준에서 3억 건 이상 처리 가능한 구조로 확장",
+      "PostgreSQL 파티셔닝·인덱싱·로그 구조 개선과 운영 알림 정비"
     ]
   },
   {
@@ -171,31 +133,96 @@ export const experiences = [
     period: "2019.01 - 2020.06",
     role: "HMI Software Developer",
     lines: [
-      "C++ 기반 벤츠 내비게이션 온라인 기능 개발",
-      "Live Map, Online Routing, Android prototype porting",
-      "cURL, WebSocket, JNI/NDK, SHA-256 기반 데이터 검증",
-      "UI와 내비게이션 모듈 간 인터페이스 릴리즈 및 온라인 서비스 연동"
+      "C++ 기반 Mercedes-Benz 내비게이션 온라인 기능 개발",
+      "Live Map 지도 타일 갱신, 무결성 검증과 실패 복구 구현",
+      "WebSocket 기반 Online Routing과 UI–내비게이션 인터페이스 연동",
+      "Android JNI/NDK 포팅과 HMI 위젯 개발"
     ]
   }
 ];
 
 export const repos = [
   ["KT-G2P-Prototype", "한국어 TTS 전처리를 위한 G2P 시스템", "https://github.com/kr-MATAGI/KT-G2P-Prototype"],
-  ["NER-Model", "BERT/ELECTRA + LSTM/CRF 기반 한국어 NER 모델", "https://github.com/kr-MATAGI/NER-Model"],
-  ["NER-kr", "SpanNER 기반 한국어 개체명 인식 연구", "https://github.com/kr-MATAGI/NER-kr"],
+  ["NER-Model", "ELECTRA·BiLSTM·CRF 기반 한국어 NER 실험", "https://github.com/kr-MATAGI/NER-Model"],
+  ["NER-kr", "SpanNER와 품사 자질을 비교한 한국어 NER 연구", "https://github.com/kr-MATAGI/NER-kr"],
   [
     "De-identification-NER-Datasets",
-    "개인정보 비식별화를 위한 한국어 NER 데이터셋 생성",
+    "개인정보 비식별화를 위한 한국어 NER 데이터 생성",
     "https://github.com/kr-MATAGI/De-identification-NER-Datasets"
-  ],
-  ["KorLex-API", "한국어 어휘의미망 KorLex API화", "https://github.com/kr-MATAGI/KorLex-API"],
-  ["Table-Parser", "나무위키 테이블/정보상자 데이터 파싱", "https://github.com/kr-MATAGI/Table-Parser"]
+  ]
 ];
 
-export const publications = [
-  ["지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환", "Master's Thesis · 2023", "https://www.dbpia.co.kr/journal/detail?nodeId=T16857208"],
-  ["음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환", "KCC Best Paper Award · 2023", "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011"],
-  ["문맥 기반 한국어 숫자 발음열 변환", "KCC · 2023", "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488045"],
-  ["개체명 인식에서 품사 표현의 영향 분석", "KIICE · 2023", "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11498488"],
-  ["개인정보 비식별화를 위한 NER 데이터 생성", "KIICE · 2022", "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077874"]
+export const researchProjects = [
+  {
+    id: "g2p-kcc",
+    label: "G2P · KCC 2023",
+    title: "음운 지식베이스 결합",
+    paper: "음운 지식베이스를 활용한 딥러닝 기반 한국어 발음열 변환",
+    summary: "음절 ELECTRA와 BiLSTM–LSTM 모델의 출력에 표준 발음 어휘와 발음열 변환 테이블을 결합했습니다.",
+    stats: [
+      ["90.02%", "최종 문장 정확도"],
+      ["+3.53%p", "기준 모델 대비"]
+    ],
+    points: [
+      "표준 발음 규칙으로 출력 어휘 3,198개 구성",
+      "입력 음절에서 변환할 수 없는 발음 후보의 디코더 점수를 0으로 제한",
+      "86.49% → 86.94% → 89.42% → 90.02%로 단계별 향상"
+    ],
+    note: "KCC 2023 언어공학 분야 우수논문상",
+    href: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11488011"
+  },
+  {
+    id: "g2p-thesis",
+    label: "G2P · Master's Thesis",
+    title: "정확도와 추론 속도 비교",
+    paper: "지식 베이스를 활용한 심층학습 기반의 한국어 발음 변환",
+    summary: "자기 회귀·비자기 회귀 디코더와 음절 제약·기분석 사전의 결합 효과를 비교했습니다.",
+    stats: [
+      ["95.16%", "AR 기준 모델"],
+      ["85.72%", "NAR 기준 모델"],
+      ["235,939", "사전 표제어–발음열 쌍"]
+    ],
+    points: [
+      "음절 제약: AR 95.41% · NAR 86.93%, 정확도 상승과 함께 추론 시간 증가",
+      "기분석 사전: AR 95.22% · NAR 86.03%, 기준 모델과 비슷한 속도 유지",
+      "실시간 적용에는 기분석 사전 단독 결합이 더 적합"
+    ],
+    href: "https://www.dbpia.co.kr/journal/detail?nodeId=T16857208"
+  },
+  {
+    id: "deidentification-ner",
+    label: "NER · Dataset",
+    title: "비식별화 NER 데이터 구축",
+    paper: "개인정보 비식별화를 위한 개체명 유형 재정의와 학습데이터 생성 방법",
+    summary: "개인정보 비식별화 대상 12개 유형을 정의하고 한국어 위키피디아에서 3,000문장을 반자동 생성했습니다.",
+    stats: [
+      ["12개", "개체명 유형"],
+      ["3,000", "전체 문장"],
+      ["0.88575", "RoBERTa 평균 F1"]
+    ],
+    points: [
+      "훈련 2,140 · 검증 260 · 테스트 600문장으로 분리",
+      "혈액형·병명·전공·학력·종교·가족 관계를 규칙으로 보완",
+      "BERT 0.88414 · RoBERTa 0.88575 · KoELECTRA 0.87796"
+    ],
+    href: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11077874"
+  },
+  {
+    id: "ner-pos-feature",
+    label: "NER · POS Feature",
+    title: "품사 자질 결합 위치 비교",
+    paper: "개체명 인식에서 품사 표현의 방법과 입력 위치의 영향 분석",
+    summary: "토큰화, 품사 표현 방법과 입력 위치를 바꾸며 ELECTRA–BiLSTM–CRF와 SpanNER를 비교했습니다.",
+    stats: [
+      ["150,082", "국립국어원 문어 문장"],
+      ["3종", "토큰화 방식"],
+      ["2개", "NER 구조"]
+    ],
+    points: [
+      "WordPiece 토큰화가 가장 높은 성능",
+      "ELECTRA–BiLSTM–CRF에서는 Bit Flag를 BiLSTM 계층에 입력한 구성이 가장 효과적",
+      "SpanNER에서는 Bit Flag 적용 차이가 작음: 91.359 → 91.392"
+    ],
+    href: "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11498488"
+  }
 ];

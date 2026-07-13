@@ -1,15 +1,18 @@
 :root {
-  --ink: #17211f;
-  --muted: #64716f;
-  --line: #d7dfdc;
+  --ink: #0f172a;
+  --body: #334155;
+  --muted: #64748b;
+  --line: #dbe3ee;
   --surface: #ffffff;
-  --soft: #f5f7f2;
-  --mint: #14a783;
-  --cyan: #1285b8;
-  --violet: #6f4fd8;
-  --amber: #b87914;
-  --rose: #b94c63;
-  --shadow: 0 20px 60px rgba(23, 33, 31, 0.11);
+  --soft: #f8fafc;
+  --blue: #2563eb;
+  --navy: #1e3a8a;
+  --mint: #0f766e;
+  --cyan: #2563eb;
+  --violet: #4f46e5;
+  --amber: #b45309;
+  --rose: #2563eb;
+  --shadow: 0 20px 55px rgba(15, 23, 42, 0.08);
 }
 
 * {
@@ -23,11 +26,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    linear-gradient(90deg, rgba(20, 167, 131, 0.06) 1px, transparent 1px),
-    linear-gradient(rgba(18, 133, 184, 0.05) 1px, transparent 1px),
-    var(--soft);
-  background-size: 34px 34px, 34px 34px, auto;
+  background: linear-gradient(180deg, #f8fafc 0, #ffffff 540px);
   font-family:
     Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
@@ -60,8 +59,8 @@ button {
   justify-content: flex-start;
   min-height: 68px;
   padding: 14px clamp(18px, 5vw, 64px);
-  border-bottom: 1px solid rgba(215, 223, 220, 0.9);
-  background: rgba(245, 247, 242, 0.86);
+  border-bottom: 1px solid rgba(219, 227, 238, 0.92);
+  background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(16px);
 }
 
@@ -77,7 +76,7 @@ button {
 }
 
 .nav a:hover {
-  color: var(--ink);
+  color: var(--blue);
 }
 
 main {
@@ -95,17 +94,17 @@ main {
 }
 
 .heroCopy h1 {
-  max-width: 880px;
+  max-width: 760px;
   margin: 0;
   font-size: clamp(2.35rem, 6.4vw, 5.1rem);
   line-height: 1.06;
-  letter-spacing: 0;
+  letter-spacing: -0.035em;
   overflow-wrap: break-word;
   text-wrap: balance;
 }
 
 .lead {
-  max-width: 800px;
+  max-width: 760px;
   margin: 24px 0 0;
   color: var(--muted);
   font-size: clamp(1.04rem, 1.8vw, 1.25rem);
@@ -122,7 +121,7 @@ main {
 
 .eyebrow {
   margin: 0 0 12px;
-  color: var(--rose);
+  color: var(--blue);
   font-size: 0.78rem;
   font-weight: 850;
   letter-spacing: 0.08em;
@@ -167,18 +166,20 @@ main {
 }
 
 .metricGrid div {
-  min-height: 118px;
-  padding: 17px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.78);
+  min-height: 116px;
+  padding: 18px 4px 8px;
+  border-top: 1px solid var(--line);
 }
 
 .metricGrid b {
   display: block;
-  color: var(--mint);
-  font-size: 1.8rem;
+  color: var(--blue);
+  font-size: clamp(1.45rem, 2.4vw, 1.85rem);
   line-height: 1;
+}
+
+.metricGrid div:nth-child(even) b {
+  color: var(--mint);
 }
 
 .metricGrid span {
@@ -198,9 +199,9 @@ main {
   gap: 18px;
   padding: 22px;
   border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: var(--shadow);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 18px 50px rgba(15, 23, 42, 0.07);
 }
 
 .portraitWrap {
@@ -233,6 +234,31 @@ main {
   color: var(--muted);
 }
 
+.identityFacts {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+
+.identityFacts div {
+  display: grid;
+  gap: 3px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.identityFacts span {
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.identityFacts strong {
+  color: var(--body);
+  font-size: 0.9rem;
+}
+
 .tagGrid,
 .chipLine {
   display: flex;
@@ -247,10 +273,10 @@ main {
   align-items: center;
   min-height: 30px;
   padding: 0 10px;
-  border: 1px solid rgba(20, 167, 131, 0.28);
-  border-radius: 999px;
-  color: #176c5a;
-  background: rgba(20, 167, 131, 0.08);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: 5px;
+  color: var(--navy);
+  background: rgba(37, 99, 235, 0.06);
   font-size: 0.86rem;
   font-weight: 800;
 }
@@ -258,6 +284,10 @@ main {
 .section {
   padding: clamp(56px, 8vw, 92px) 0;
   border-top: 1px solid var(--line);
+}
+
+.section[id] {
+  scroll-margin-top: 104px;
 }
 
 .sectionHead {
@@ -269,14 +299,19 @@ main {
   margin: 0;
   font-size: clamp(1.8rem, 4vw, 3rem);
   line-height: 1.14;
-  letter-spacing: 0;
+  letter-spacing: -0.025em;
 }
 
-.focusGrid,
-.stackGrid {
+.focusGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+}
+
+.stackGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .focusGrid article,
@@ -287,8 +322,8 @@ main {
 .credentialGrid article {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.8);
-  box-shadow: 0 10px 34px rgba(23, 33, 31, 0.05);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: none;
 }
 
 .focusGrid article,
@@ -297,7 +332,7 @@ main {
 }
 
 .index {
-  color: var(--mint);
+  color: var(--blue);
   font-size: 0.86rem;
   font-weight: 900;
 }
@@ -330,6 +365,7 @@ main {
 }
 
 .filterBar button {
+  flex: 0 0 auto;
   min-height: 38px;
   padding: 0 14px;
   border: 1px solid var(--line);
@@ -338,6 +374,8 @@ main {
   background: rgba(255, 255, 255, 0.74);
   cursor: pointer;
   font-weight: 800;
+  overflow-wrap: normal;
+  white-space: nowrap;
 }
 
 .filterBar button.active {
@@ -387,8 +425,8 @@ main {
 }
 
 .projectButton.selected {
-  border-color: rgba(20, 167, 131, 0.72);
-  background: rgba(20, 167, 131, 0.09);
+  border-color: rgba(37, 99, 235, 0.65);
+  background: rgba(37, 99, 235, 0.07);
 }
 
 .projectDetail {
@@ -401,6 +439,28 @@ main {
   margin: 0;
   font-size: clamp(1.5rem, 3vw, 2.2rem);
   line-height: 1.18;
+}
+
+.projectVisual {
+  display: grid;
+  gap: 8px;
+  margin: 22px 0 0;
+}
+
+.projectImage {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--soft);
+}
+
+.projectVisual figcaption {
+  color: var(--muted);
+  font-size: 0.76rem;
+  text-align: right;
 }
 
 .projectDetail dl {
@@ -496,6 +556,119 @@ main {
   gap: 20px;
 }
 
+.sectionIntro {
+  margin: 18px 0 0;
+  color: var(--muted);
+}
+
+.researchGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.researchCard {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.94);
+}
+
+.researchCard header {
+  display: grid;
+  gap: 8px;
+}
+
+.researchCard .eyebrow {
+  margin-bottom: 0;
+}
+
+.researchCard h3 {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.paperTitle,
+.researchSummary {
+  margin: 0;
+  color: var(--muted);
+}
+
+.paperTitle {
+  font-size: 0.84rem;
+}
+
+.researchSummary {
+  color: var(--body);
+}
+
+.researchStats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.researchStats div {
+  min-width: 0;
+  padding-top: 11px;
+  border-top: 1px solid var(--line);
+}
+
+.researchStats strong,
+.researchStats span {
+  display: block;
+}
+
+.researchStats strong {
+  color: var(--blue);
+  font-size: 1.18rem;
+}
+
+.researchStats div:nth-child(even) strong {
+  color: var(--mint);
+}
+
+.researchStats span {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.researchCard ul {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 18px;
+  color: var(--body);
+  font-size: 0.9rem;
+}
+
+.researchNote {
+  margin: 0;
+  padding: 12px 14px;
+  border-left: 3px solid var(--blue);
+  color: var(--navy);
+  background: rgba(37, 99, 235, 0.07);
+  font-weight: 800;
+}
+
+.researchCard > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  color: var(--blue);
+  font-size: 0.88rem;
+  font-weight: 850;
+  text-decoration: none;
+}
+
 .credentialGrid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -510,7 +683,7 @@ main {
 }
 
 .credentialGrid svg {
-  color: var(--mint);
+  color: var(--blue);
 }
 
 .credentialGrid span {
@@ -621,6 +794,23 @@ main {
     display: block;
   }
 
+  .projectList {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .projectButton {
+    flex: 0 0 calc(100vw - 50px);
+    scroll-snap-align: start;
+  }
+
+  .projectDetail {
+    padding: 18px;
+  }
+
   .lead span {
     display: block;
   }
@@ -632,6 +822,7 @@ main {
   .metricGrid,
   .focusGrid,
   .stackGrid,
+  .researchGrid,
   .repoGrid,
   .credentialGrid {
     grid-template-columns: 1fr;

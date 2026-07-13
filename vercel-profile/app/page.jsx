@@ -4,14 +4,13 @@ import Image from "next/image";
 import {
   ArrowUpRight,
   DatabaseZap,
-  FileText,
   Github,
   Layers3,
   ShieldCheck,
   Workflow
 } from "lucide-react";
 import { useMemo, useState } from "react";
-import { experiences, focusAreas, metrics, projects, publications, repos } from "./data";
+import { experiences, focusAreas, metrics, projects, repos, researchProjects } from "./data";
 
 const filters = [
   { id: "all", label: "All" },
@@ -19,16 +18,14 @@ const filters = [
   { id: "pipeline", label: "Pipeline" },
   { id: "automation", label: "Automation" },
   { id: "backend", label: "Backend" },
-  { id: "automotive", label: "Automotive" },
-  { id: "report", label: "Report" },
-  { id: "analytics", label: "Analytics" }
+  { id: "automotive", label: "Automotive" }
 ];
 
 const stackGroups = [
-  ["AI / Agent", ["LangGraph", "LangChain", "OpenAI API", "Gemini", "Pydantic"]],
-  ["Data Service", ["Python", "FastAPI", "TypeScript", "SSE"]],
-  ["Data", ["Airflow", "Databricks", "S3", "PostgreSQL", "MySQL"]],
-  ["Automation", ["Playwright", "Selenium", "n8n", "GSC API", "Slack API"]]
+  ["AI / NLP", ["LangGraph", "Gemini", "BGE-M3", "ELECTRA", "SpanNER"]],
+  ["Data / Automation", ["Airflow", "Databricks", "S3", "Playwright", "GSC API"]],
+  ["Backend", ["Python", "FastAPI", "RabbitMQ", "Redis", "PostgreSQL"]],
+  ["Systems", ["C++", "WebSocket", "cURL", "JNI/NDK", "SHA-256"]]
 ];
 
 export default function ProfilePage() {
@@ -56,31 +53,20 @@ export default function ProfilePage() {
         <nav className="nav" aria-label="Primary navigation">
           <a href="#projects">Projects</a>
           <a href="#experience">Experience</a>
-          <a href="#repositories">Repositories</a>
           <a href="#research">Research</a>
+          <a href="#repositories">Repositories</a>
         </nav>
       </header>
 
       <main id="top">
         <section className="hero">
           <div className="heroCopy">
-            <p className="eyebrow">AI/Data Engineer</p>
-            <h1>
-              <span>AI Agent로</span>{" "}
-              <span>데이터 운영을</span>{" "}
-              <span>자동화합니다.</span>
-            </h1>
+            <p className="eyebrow">Choi Jaehoon · AI/Data Engineer</p>
+            <h1>데이터에서 서비스까지.</h1>
             <p className="lead">
-              <span>현재 Cafe24에서 </span>
-              <span>Databricks, Airflow, LangGraph, </span>
-              <span>FastAPI를 연결해 </span>
-              <span>데이터 수집부터 분석, 리포팅, </span>
-              <span>AI Agent 서비스화까지 이어지는 </span>
-              <span>자동화 시스템을 구축합니다.</span>
-              <span>통신, 제조, 플랫폼, </span>
-              <span>엔터프라이즈 IT처럼 </span>
-              <span>운영 복잡도가 큰 환경에도 </span>
-              <span>확장 가능한 구조를 지향합니다.</span>
+              Python 백엔드와 데이터 운영을 기반으로 Cafe24에서는 자사몰 진단, GSC 수집,
+              멀티에이전트 분석을 만들고 있습니다. 이전에는 HotSeller의 대량 작업 처리 구조와
+              NAVIS-AMS의 Mercedes-Benz Live Map·Online Routing을 개발했습니다.
             </p>
             <div className="heroActions">
               <a className="button primary" href="#projects">
@@ -118,13 +104,25 @@ export default function ProfilePage() {
               <p className="name">최재훈</p>
               <p className="role">AI/Data Engineer</p>
             </div>
+            <div className="identityFacts">
+              <div>
+                <span>Experience</span>
+                <strong>Cafe24 · HotSeller · NAVIS-AMS</strong>
+              </div>
+              <div>
+                <span>Research</span>
+                <strong>부산대학교 AI 석사 · NER / G2P</strong>
+              </div>
+              <div>
+                <span>Award</span>
+                <strong>KCC 2023 언어공학 우수논문상</strong>
+              </div>
+            </div>
             <div className="tagGrid">
-              <span>LLM Agent</span>
-              <span>LangGraph</span>
-              <span>Databricks</span>
-              <span>Airflow</span>
-              <span>FastAPI</span>
               <span>Python</span>
+              <span>FastAPI</span>
+              <span>Databricks</span>
+              <span>LangGraph</span>
               <span>PostgreSQL</span>
             </div>
           </aside>
@@ -133,7 +131,7 @@ export default function ProfilePage() {
         <section className="section focusSection" aria-labelledby="focus-title">
           <div className="sectionHead">
             <p className="eyebrow">Focus</p>
-            <h2 id="focus-title">AI/Data Engineering Focus</h2>
+            <h2 id="focus-title">수집·분석·서비스화를 한 흐름으로</h2>
           </div>
           <div className="focusGrid">
             {focusAreas.map((focus, index) => (
@@ -149,7 +147,7 @@ export default function ProfilePage() {
         <section className="section" aria-labelledby="stack-title">
           <div className="sectionHead">
             <p className="eyebrow">Stack</p>
-            <h2 id="stack-title">실제로 연결해 쓰는 기술</h2>
+            <h2 id="stack-title">프로젝트에서 사용한 기술</h2>
           </div>
           <div className="stackGrid">
             {stackGroups.map(([group, items]) => (
@@ -168,7 +166,7 @@ export default function ProfilePage() {
         <section className="section projectsSection" id="projects" aria-labelledby="projects-title">
           <div className="sectionHead">
             <p className="eyebrow">Selected Work</p>
-            <h2 id="projects-title">프로젝트를 기능과 구조로 보기</h2>
+            <h2 id="projects-title">대표 작업</h2>
           </div>
 
           <div className="filterBar" role="tablist" aria-label="프로젝트 필터">
@@ -177,6 +175,8 @@ export default function ProfilePage() {
                 key={filter.id}
                 type="button"
                 className={filter.id === activeFilter ? "active" : ""}
+                role="tab"
+                aria-selected={filter.id === activeFilter}
                 onClick={() => handleFilter(filter.id)}
               >
                 {filter.label}
@@ -205,17 +205,29 @@ export default function ProfilePage() {
                 <p className="eyebrow">{activeProject.category}</p>
                 <h3>{activeProject.title}</h3>
               </div>
+              {activeProject.image ? (
+                <figure className="projectVisual">
+                  <Image
+                    src={activeProject.image}
+                    alt={activeProject.imageAlt}
+                    width={1280}
+                    height={900}
+                    className="projectImage"
+                  />
+                  <figcaption>{activeProject.imageCaption}</figcaption>
+                </figure>
+              ) : null}
               <dl>
                 <div>
-                  <dt>Function</dt>
+                  <dt>역할</dt>
                   <dd>{activeProject.function}</dd>
                 </div>
                 <div>
-                  <dt>Structure</dt>
+                  <dt>구현</dt>
                   <dd>{activeProject.structure}</dd>
                 </div>
                 <div>
-                  <dt>Use Case</dt>
+                  <dt>결과</dt>
                   <dd>{activeProject.usage}</dd>
                 </div>
               </dl>
@@ -268,9 +280,42 @@ export default function ProfilePage() {
         <section className="section split" id="research" aria-labelledby="research-title">
           <div className="sectionHead stickyHead">
             <p className="eyebrow">Research</p>
-            <h2 id="research-title">연구와 자격</h2>
+            <h2 id="research-title">대표 연구</h2>
+            <p className="sectionIntro">
+              한국어 NLP 연구를 통해 텍스트 데이터 구축, 모델 평가, 오류 분석과 도메인 규칙 결합을 다뤘습니다.
+            </p>
           </div>
           <div className="researchPanel">
+            <div className="researchGrid">
+              {researchProjects.map((research) => (
+                <article className="researchCard" key={research.id}>
+                  <header>
+                    <p className="eyebrow">{research.label}</p>
+                    <h3>{research.title}</h3>
+                    <p className="paperTitle">{research.paper}</p>
+                  </header>
+                  <p className="researchSummary">{research.summary}</p>
+                  <div className="researchStats">
+                    {research.stats.map(([value, label]) => (
+                      <div key={`${research.id}-${label}`}>
+                        <strong>{value}</strong>
+                        <span>{label}</span>
+                      </div>
+                    ))}
+                  </div>
+                  <ul>
+                    {research.points.map((point) => (
+                      <li key={point}>{point}</li>
+                    ))}
+                  </ul>
+                  {research.note ? <p className="researchNote">{research.note}</p> : null}
+                  <a href={research.href}>
+                    논문 보기
+                    <ArrowUpRight size={17} />
+                  </a>
+                </article>
+              ))}
+            </div>
             <div className="credentialGrid">
               <article>
                 <ShieldCheck size={22} />
@@ -288,23 +333,12 @@ export default function ProfilePage() {
                 <span>운영 환경 이해</span>
               </article>
             </div>
-            <div className="publicationList">
-              {publications.map(([title, meta, href]) => (
-                <a key={title} href={href}>
-                  <FileText size={18} />
-                  <span>
-                    <strong>{title}</strong>
-                    <small>{meta}</small>
-                  </span>
-                </a>
-              ))}
-            </div>
           </div>
         </section>
       </main>
 
       <footer className="footer">
-        <p>최재훈 · AI/Data Engineer · Seoul</p>
+        <p>최재훈 · AI/Data Engineer · Data Pipeline · Agent · Backend</p>
         <a href="#top">Back to top</a>
       </footer>
     </>

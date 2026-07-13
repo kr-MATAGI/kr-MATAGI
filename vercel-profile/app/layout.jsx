@@ -2,13 +2,13 @@ import "./globals.css";
 
 export const metadata = {
   metadataBase: new URL("https://matagi-profile.vercel.app"),
-  title: "최재훈 | AI & Data Engineer",
+  title: "최재훈 | AI/Data Engineer",
   description:
-    "대규모 운영 환경에서 데이터 파이프라인, LLM Agent, 데이터 서비스 자동화 시스템을 구축하는 AI/Data Engineer 프로필",
+    "Cafe24 데이터 자동화, HotSeller 백엔드, NAVIS-AMS 내비게이션과 한국어 NLP 연구를 소개하는 최재훈의 개발자 포트폴리오",
   openGraph: {
-    title: "최재훈 | AI & Data Engineer",
+    title: "최재훈 | AI/Data Engineer",
     description:
-      "대규모 데이터를 서비스로 연결하는 AI Agent와 데이터 플랫폼 중심 프로필 페이지",
+      "데이터 파이프라인, AI Agent, 대량 작업 처리, 자동차 HMI와 한국어 NLP 연구 포트폴리오",
     type: "website",
     images: ["/profile.jpg"]
   }
